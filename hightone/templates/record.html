@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 style="margin-top: 100px; text-align: center; font-family: 'Arial', sans-serif; color: #4CAF50;">녹음 페이지</h1>
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: auto; width: 100%;">
+    <!-- 녹음 시작 버튼과 분석 결과 버튼을 감싸는 div -->
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <button id="startRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
+            녹음 시작
+        </button>
+        <!-- 동적으로 생성될 '분석 결과' 버튼 -->
+        <button id="showAnalysis" style="padding: 15px 30px; background-color: #FF5722; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease; margin-left: 10px; display: none;">
+            분석 결과
+        </button>
+    </div>
+    
+    <!-- 녹음 중 메시지 -->
+    <div id="loading" style="display: none; margin-top: 20px; font-family: 'Arial', sans-serif; font-size: 18px; color: #FFA500;">녹음 중입니다...</div>
+    <div id="analyzing" style="display: none; margin-top: 20px; font-family: 'Arial', sans-serif; font-size: 18px; color: #FFA500;">분석 중입니다...</div>
+
+    <!-- 분석 완료 메시지 -->
+    <div id="analysisComplete" style="display: none; margin-top: 20px; font-family: 'Arial', sans-serif; font-size: 18px; color: #4CAF50;">분석이 완료되었습니다. 결과를 확인해보세요.</div>
+
+    <!-- 캔버스 영역 -->
+    <canvas id="frequencyCanvas" width="600" height="200" style="display: none; margin-top: 30px; border: 1px solid #ccc; border-radius: 8px; background-color: #1e1e1e;"></canvas>
+    
+    <!-- 분석 결과를 표시할 컨테이너 -->
+    <div id="analysisContainer" style="display: none; margin-top: 30px; padding: 20px; max-width: 600px; width: 100%; background-color: #f9f9f9; border: 1px solid #ccc; border-radius: 8px; text-align: center;">
+        <h3 style="color: #333;">분석 결과</h3>
+        <div id="result" style="font-family: 'Arial', sans-serif; font-size: 18px; color: #333;"></div>
+    </div>
+</div>
+
+<!-- 추가된 스타일과 애니메이션 -->
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f4f8;
+    }
+
+    #startRecording:hover {
+        background-color: #45a049;
+    }
+
+    #startRecording:disabled {
+        background-color: #d3d3d3;
+        cursor: not-allowed;
+    }
+
+    #loading, #analyzing {
+        animation: blinker 1.5s linear infinite;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    canvas {
+        animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    #result {
+        animation: fadeInResult 1s ease;
+    }
+
+    @keyframes fadeInResult {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    #analysisContainer {
+        animation: fadeInContainer 0.5s ease;
+    }
+
+    @keyframes fadeInContainer {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let audioContext;
+    let analyser;
+    let dataArray;
+    const canvas = document.getElementById('frequencyCanvas');
+    const ctx = canvas.getContext('2d');
+
+    document.getElementById('startRecording').addEventListener('click', async function() {
+        // 이전 결과 초기화
+        document.getElementById('result').textContent = '';
+        document.getElementById('analysisContainer').style.display = 'none'; // 분석 결과 컨테이너 숨기기
+        document.getElementById('analysisComplete').style.display = 'none'; // 완료 메시지 숨기기
+
+        // 버튼 텍스트 변경 (버튼 위치는 그대로 유지)
+        this.textContent = '녹음 중...';
+        this.disabled = true;
+
+        // 녹음 중 메시지 표시
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('frequencyCanvas').style.display = 'block'; // 캔버스 보이기
+
+        // 마이크 권한 요청 및 스트림 가져오기
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        const source = audioContext.createMediaStreamSource(stream);
+        
+        // AnalyserNode 생성
+        analyser = audioContext.createAnalyser();
+        source.connect(analyser);
+        analyser.fftSize = 2048;  // FFT 크기 설정
+        dataArray = new Uint8Array(analyser.frequencyBinCount);
+
+        // 오디오 조각 수집
+        mediaRecorder = new MediaRecorder(stream);
+        mediaRecorder.ondataavailable = event => {
+            audioChunks.push(event.data);
+        };
+
+        // 녹음 종료 후 처리
+        mediaRecorder.onstop = async () => {
+            // 녹음 중 메시지 숨기기
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('frequencyCanvas').style.display = 'none'; // 캔버스 숨기기
+            // 분석 중 메시지 표시
+            document.getElementById('analyzing').style.display = 'block';
+
+            // Blob 생성 및 서버로 전송
+            const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+            const formData = new FormData();
+            formData.append('audio', audioBlob);
+
+            // 서버에 데이터 전송
+            const response = await fetch('/process_record', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+
+            // 분석 중 메시지 숨기기
+            document.getElementById('analyzing').style.display = 'none';
+
+            // 분석 완료 메시지 표시
+            document.getElementById('analysisComplete').style.display = 'block';
+
+            // 결과 표시
+            document.getElementById('result').textContent = data.result;
+
+            // 리소스 해제
+            mediaRecorder = null;
+            audioChunks = [];
+            audioContext.close();
+            audioContext = null;
+
+            // 버튼 텍스트를 원래대로 복원
+            document.getElementById('startRecording').textContent = '녹음 시작';
+            document.getElementById('startRecording').disabled = false;
+
+            // '분석 결과' 버튼 표시
+            document.getElementById('showAnalysis').style.display = 'inline-block';
+        };
+
+        // 녹음 시작
+        mediaRecorder.start();
+
+        // 주파수 분석 함수 호출
+        analyzeFrequency();
+
+        // 5초 후 녹음 종료
+        setTimeout(() => {
+            mediaRecorder.stop();
+        }, 5000);
+    });
+
+    // 분석 결과 버튼 클릭 이벤트
+    document.getElementById('showAnalysis').addEventListener('click', async function() {
+        // 서버에서 분석 결과 가져오기
+        const response = await fetch('/get_analysis_result');
+        const resultText = await response.text();
+
+        // 분석 결과 표시
+        document.getElementById('result').textContent = resultText;
+        document.getElementById('analysisContainer').style.display = 'block'; // 컨테이너 보이기
+    });
+
+    function analyzeFrequency() {
+        requestAnimationFrame(analyzeFrequency);
+        analyser.getByteFrequencyData(dataArray);
+
+        // 캔버스 클리어
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // 주파수 스펙트럼 그리기
+        const barWidth = (canvas.width / dataArray.length) * 2.5;
+        let barHeight;
+        let x = 0;
+
+        for (let i = 0; i < dataArray.length; i++) {
+            barHeight = dataArray[i] / 2; // 스케일 조정
+            ctx.fillStyle = 'rgb(' + (barHeight + 100) + ',50,50)'; // 색상 조정
+            ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+            x += barWidth + 1;
+        }
+    }
+</script>
+{% endblock %}

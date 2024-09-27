@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}ABOUT | HIGH-TONE Lab{% endblock %}
+
+{% block css %}
+    <!-- Google Fonts 링크 추가 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+{% block content %}
+    <!-- 중앙에 큰 타이틀 ABOUT -->
+    <div style="text-align: center; margin-top: 50px;">
+        <h1 style="font-size: 48px; font-family: 'Noto Sans', sans-serif; text-decoration: underline; color:black;">
+            ABOUT
+        </h1>
+        <p style="font-size: 20px; font-family: 'Noto Sans', sans-serif; margin-top: 30px;">
+            당신의 음성을 듣고 분석하여 노래를 추천해줍니다
+        </p>
+    </div>
+
+    <!-- 세 개의 컨테이너 -->
+    <div class="container flex-center" style="margin-top: 50px; margin-bottom: 100px">
+        <!-- 첫 번째 컨테이너 -->
+        <div class="content-box">
+            <div class="header">
+                <h2 style="font-family: 'Noto Sans', sans-serif;">음역대 분석</h2>
+            </div>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='singer_ex.jpg') }}" alt="Image 1">
+            </div>
+            <div class="description">
+                <p style="font-family: 'Noto Sans', sans-serif;">
+                    <br>녹음 및 분석을 통하여 나의 음역대를 알아보세요!<br><br> 내가 가장 자신있는 음역대를 찾을 수 있습니다!
+                </p>
+            </div>
+        </div>
+
+        <!-- 두 번째 컨테이너 -->
+        <div class="content-box">
+            <div class="header">
+                <h2 style="font-family: 'Noto Sans', sans-serif;">추천곡 리스트</h2>
+            </div>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='singer_ex4.jpg') }}" alt="Image 2">
+            </div>
+            <div class="description">
+                <p style="font-family: 'Noto Sans', sans-serif;">
+                    <br>분석한 나의 음역대를 토대로 내가 부르기 쉬운 노래들을 찾아보세요!<br><br> 나의 음역대와 비슷한 노래들을 추천해줍니다!
+                </p>
+            </div>
+        </div>
+
+        <!-- 세 번째 컨테이너 -->
+        <div class="content-box">
+            <div class="header">
+                <h2 style="font-family: 'Noto Sans', sans-serif;">노래 도전</h2>
+            </div>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='singer_ex3.jpg') }}" alt="Image 3">
+            </div>
+            <div class="description">
+                <p style="font-family: 'Noto Sans', sans-serif;">
+                    <br>나의 음역대보다 높은 음역대 또는 낮은 음역대를 도전해보세요!<br><br> 각각의 노래들을 추천해줍니다!
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

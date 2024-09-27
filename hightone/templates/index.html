@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <img src="{{ url_for('static', filename='singer_ex3.jpg') }}" alt="Large Image" style="width: 100%; height: auto;">
+    
+    <div style="display: flex; padding: 20px;">
+        <div style="flex: 1; height: 500px; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
+            <div class="container" style="padding: 20px; height: 100%; overflow-y: auto; background-color: #c8bdf6; border: 3px solid #c4b9f1; border-radius:8px;">
+                <h2>추천곡 리스트</h2>
+                <ul style="list-style-type: none; padding: 20px;">
+                    {% for song in song_list %}
+                    <li style="border: 1px solid #000000; background-color: #f9f9f9; padding: 10px; margin-bottom: 5px; border-radius: 8px;">
+                        {{ song }}
+                    </li>
+                    {% endfor %}
+                </ul>                
+            </div>
+        </div>
+
+        <!-- 오른쪽 패널: 내 목소리 분석하기, 높은 음/낮은 음 도전하기 -->
+        <div style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <!-- '내 목소리 분석하기' 버튼 -->
+            <div style="margin-bottom: 20px; width: 60%;">
+                <a href="/record" 
+                style="display: inline-block; padding: 30px; background-color: #4CAF50; color: white; font-size: 20px; font-weight: bold; border: 3px solid #48a442; border-radius: 8px; text-decoration: none; cursor: pointer; text-align: center; width: 100%; box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
+                    내 목소리 분석하기
+                </a>
+            </div>
+
+            <!-- 높은 음 도전하기 버튼 -->
+            <div style="margin-bottom: 20px; width: 60%;">
+                <div class="container" 
+                    style="text-align: center; padding: 30px; background-color: #ffd700; cursor: pointer; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); border: 3px solid #ffd000; color: white; font-weight: bold; font-size: 20px;" 
+                    onclick="location.href='/high_pitch_challenge'">
+                    높은 음 도전하기
+                </div>
+            </div>
+
+            <!-- 낮은 음 도전하기 버튼 -->
+            <div style="width: 60%;">
+                <div class="container" 
+                    style="text-align: center; padding: 30px; background-color: #1e90ff; cursor: pointer; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); border: 3px solid #1d87f2; color: white; font-weight: bold; font-size: 20px;" 
+                    onclick="location.href='/low_pitch_challenge'">
+                    낮은 음 도전하기
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

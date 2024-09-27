@@ -1,0 +1,78 @@
+/* 기본 스타일 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 전체 페이지 설정 */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Body를 화면에 꽉 채우기 위한 Flexbox 설정 */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* body를 화면에 꽉 채움 */
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* 텍스트에 그라데이션 효과 */
+.rainbow-text {
+    background: linear-gradient(90deg, #ffff00, #00ff00, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* 텍스트 색상 투명하게 설정 */
+    font-size: 2em; /* 텍스트 크기 조정 */
+    font-family: 'Dancing Script', cursive;
+}
+
+/* 로고 스타일 */
+.logo {
+    font-size: 20pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-links {
+    font-size: 12pt;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* 메인 컨테이너 */
+.container {
+    flex: 1; /* container가 남은 공간을 채우도록 설정 */
+    background: #ffffff;
+    padding: 0;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #bdbdbd;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
