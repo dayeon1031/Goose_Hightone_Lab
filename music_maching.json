@@ -1,0 +1,4263 @@
+[{
+  "_id": {
+    "$oid": "651ebc6f4c06541137599186"
+  },
+  "userId": 44,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 42866,
+      "singer": "김필",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42866.jpg",
+      "title": "슬픈언약식"
+    },
+    {
+      "musicId": 33207,
+      "singer": "FT Island",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33207.jpg",
+      "title": "슬픈언약식"
+    },
+    {
+      "musicId": 91868,
+      "singer": "헨리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/91868.jpg",
+      "title": "I LUV U"
+    },
+    {
+      "musicId": 2940,
+      "singer": "아낌없이주는나무",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/2940.jpg",
+      "title": "그녀에게띄우는편지"
+    },
+    {
+      "musicId": 6067,
+      "singer": "강타",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/6067.jpg",
+      "title": "섬(성냥팔이소녀의재림OST)"
+    },
+    {
+      "musicId": 47501,
+      "singer": "유열",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/47501.jpg",
+      "title": "지금의내생각처럼..."
+    },
+    {
+      "musicId": 49740,
+      "singer": "수란",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49740.jpg",
+      "title": "겨울새"
+    },
+    {
+      "musicId": 21426,
+      "singer": "Lasse Lindh",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/21426.jpg",
+      "title": "C'mon Through"
+    },
+    {
+      "musicId": 83283,
+      "singer": "투모로우바이투게더",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83283.jpg",
+      "title": "Magic Island"
+    },
+    {
+      "musicId": 42919,
+      "singer": "권순일(어반자카파)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42919.jpg",
+      "title": "사랑합니다"
+    },
+    {
+      "musicId": 95266,
+      "singer": "할리퀸",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95266.jpg",
+      "title": "하루해가질때아쉬울것내겐없어라"
+    },
+    {
+      "musicId": 17486,
+      "singer": "에반",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/17486.jpg",
+      "title": "남자도..어쩔수없다"
+    },
+    {
+      "musicId": 98502,
+      "singer": "선미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98502.jpg",
+      "title": "ADDICT"
+    },
+    {
+      "musicId": 45841,
+      "singer": "브랜뉴직(Feat.지호)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45841.jpg",
+      "title": "Excuse Me"
+    },
+    {
+      "musicId": 48933,
+      "singer": "위너(WINNER)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48933.jpg",
+      "title": "Fool"
+    },
+    {
+      "musicId": 42814,
+      "singer": "디오지(DOZ)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42814.jpg",
+      "title": "아리가또고자이마스"
+    },
+    {
+      "musicId": 48049,
+      "singer": "비와이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48049.jpg",
+      "title": "자화상"
+    },
+    {
+      "musicId": 30295,
+      "singer": "마리오",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30295.jpg",
+      "title": "난니꺼"
+    },
+    {
+      "musicId": 10979,
+      "singer": "Tri-Be",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10979.jpg",
+      "title": "사랑을믿나요(러브레터OST)"
+    },
+    {
+      "musicId": 83357,
+      "singer": "지민(방탄소년단)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83357.jpg",
+      "title": "Alone"
+    },
+    {
+      "musicId": 96427,
+      "singer": "위아더나잇",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96427.jpg",
+      "title": "할리데이(꽃보다청춘삽입곡)"
+    },
+    {
+      "musicId": 35860,
+      "singer": "G-DRAGON(Feat.김윤아)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35860.jpg",
+      "title": "Missing You"
+    },
+    {
+      "musicId": 66681,
+      "singer": "GINO PADILLA",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66681.jpg",
+      "title": "LET THE LOVE BEGIN"
+    },
+    {
+      "musicId": 99949,
+      "singer": "코드쿤스트(Feat.카더가든)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99949.jpg",
+      "title": "Don't shoot me MAMA"
+    },
+    {
+      "musicId": 47860,
+      "singer": "MFBTY",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/47860.jpg",
+      "title": "첫눈이오면설레였던꼬마아이(Time Travel)"
+    },
+    {
+      "musicId": 34779,
+      "singer": "옥상달빛",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34779.jpg",
+      "title": "수고했어,오늘도"
+    },
+    {
+      "musicId": 29694,
+      "singer": "주영(Feat.매드클라운,웨일)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29694.jpg",
+      "title": "Downtown Love"
+    },
+    {
+      "musicId": 42457,
+      "singer": "서인국,정소민",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42457.jpg",
+      "title": "별, 우리(하늘에서내리는일억개의별OST)"
+    },
+    {
+      "musicId": 62501,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62501.jpg",
+      "title": "그때의나, 그때의우리"
+    },
+    {
+      "musicId": 34838,
+      "singer": "홍경민",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34838.jpg",
+      "title": "하얀밤에"
+    },
+    {
+      "musicId": 42162,
+      "singer": "이승철",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42162.jpg",
+      "title": "누구나어른이되서"
+    },
+    {
+      "musicId": 19729,
+      "singer": "알렉스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19729.jpg",
+      "title": "그대라면"
+    },
+    {
+      "musicId": 75832,
+      "singer": "HYNN(박혜원)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75832.jpg",
+      "title": "한번만내마음대로하자"
+    },
+    {
+      "musicId": 14651,
+      "singer": "신디",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14651.jpg",
+      "title": "Have a good time"
+    },
+    {
+      "musicId": 3514,
+      "singer": "토이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3514.jpg",
+      "title": "소박했던,행복했던..."
+    },
+    {
+      "musicId": 46433,
+      "singer": "김필",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46433.jpg",
+      "title": "Cry"
+    },
+    {
+      "musicId": 39285,
+      "singer": "김필,Take#1(Feat.마이노스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39285.jpg",
+      "title": "바보같이또울어요"
+    },
+    {
+      "musicId": 36175,
+      "singer": "하이니",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36175.jpg",
+      "title": "전설같은이야기"
+    },
+    {
+      "musicId": 78622,
+      "singer": "에픽하이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78622.jpg",
+      "title": "Lesson Zero"
+    },
+    {
+      "musicId": 46304,
+      "singer": "에피톤프로젝트(Feat.한희정)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46304.jpg",
+      "title": "그대는어디에"
+    },
+    {
+      "musicId": 81256,
+      "singer": "BTOB",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81256.jpg",
+      "title": "봄이피어나"
+    },
+    {
+      "musicId": 16915,
+      "singer": "M+(엠플러스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/16915.jpg",
+      "title": "사랑은 죽었다"
+    },
+    {
+      "musicId": 81871,
+      "singer": "카더가든",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81871.jpg",
+      "title": "상처는아름다운흔적이되어(환혼OST)"
+    },
+    {
+      "musicId": 46388,
+      "singer": "AKMU(악뮤)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46388.jpg",
+      "title": "RE-BYE"
+    },
+    {
+      "musicId": 42955,
+      "singer": "SOUND PALETTE(Song by 고요)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42955.jpg",
+      "title": "Monster"
+    },
+    {
+      "musicId": 82886,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82886.jpg",
+      "title": "Big world"
+    },
+    {
+      "musicId": 39079,
+      "singer": "윤상",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39079.jpg",
+      "title": "날위로하려거든"
+    },
+    {
+      "musicId": 78547,
+      "singer": "윤지온,남영주",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78547.jpg",
+      "title": "느린걸음(멜로가체질OST)"
+    },
+    {
+      "musicId": 80834,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80834.jpg",
+      "title": "거리(지금헤어지는중입니다OST)"
+    },
+    {
+      "musicId": 98580,
+      "singer": "박원",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98580.jpg",
+      "title": "나"
+    },
+    {
+      "musicId": 80956,
+      "singer": "PATEKO(Feat.Knave,디핵(D-Hack),윤현선)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80956.jpg",
+      "title": "Pray On Sunday"
+    },
+    {
+      "musicId": 45481,
+      "singer": "406호프로젝트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45481.jpg",
+      "title": "넌나어때"
+    },
+    {
+      "musicId": 82690,
+      "singer": "J.TellA",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82690.jpg",
+      "title": "전부지나갈테니아끼지말자우린"
+    },
+    {
+      "musicId": 18612,
+      "singer": "옥수사진관(Feat.서영은)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18612.jpg",
+      "title": "쉬운 얘기"
+    },
+    {
+      "musicId": 11986,
+      "singer": "Q-west",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/11986.jpg",
+      "title": "Lullaby"
+    },
+    {
+      "musicId": 18942,
+      "singer": "이루",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18942.jpg",
+      "title": "겨울나기"
+    },
+    {
+      "musicId": 46973,
+      "singer": "로이킴",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46973.jpg",
+      "title": "그리움만쌓이네(로맨틱흑기사)"
+    },
+    {
+      "musicId": 53879,
+      "singer": "기프트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53879.jpg",
+      "title": "어느날갑자기- It's Over"
+    },
+    {
+      "musicId": 1301,
+      "singer": "이상우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/1301.jpg",
+      "title": "슬픈그림같은사랑"
+    },
+    {
+      "musicId": 42585,
+      "singer": "YuA(한유아)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42585.jpg",
+      "title": "너의외로움이날부를때"
+    },
+    {
+      "musicId": 31459,
+      "singer": "트랙스 에어",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/31459.jpg",
+      "title": "목소리(태양을삼켜라OST)"
+    },
+    {
+      "musicId": 54846,
+      "singer": "윤하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54846.jpg",
+      "title": "다음에봐"
+    },
+    {
+      "musicId": 24782,
+      "singer": "육성재",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24782.jpg",
+      "title": "겨울속에서"
+    },
+    {
+      "musicId": 80935,
+      "singer": "pH-1(Feat.후디)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80935.jpg",
+      "title": "LATELY"
+    },
+    {
+      "musicId": 33366,
+      "singer": "성시경",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33366.jpg",
+      "title": "눈부신고백"
+    },
+    {
+      "musicId": 34957,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34957.jpg",
+      "title": "내가노래를못해도"
+    },
+    {
+      "musicId": 31805,
+      "singer": "김동욱",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/31805.jpg",
+      "title": "나에게그대는(소울스페셜OST)"
+    },
+    {
+      "musicId": 48826,
+      "singer": "태연",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48826.jpg",
+      "title": "수채화(Love In Color)"
+    },
+    {
+      "musicId": 38246,
+      "singer": "태연",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/38246.jpg",
+      "title": "Colorful"
+    },
+    {
+      "musicId": 75952,
+      "singer": "경제환",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75952.jpg",
+      "title": "마지막으로"
+    },
+    {
+      "musicId": 36638,
+      "singer": "이하이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36638.jpg",
+      "title": "Because"
+    },
+    {
+      "musicId": 97740,
+      "singer": "리차드파커스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97740.jpg",
+      "title": "밖에는비가내려"
+    },
+    {
+      "musicId": 1906,
+      "singer": "미스터투",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/1906.jpg",
+      "title": "꿈속에서"
+    },
+    {
+      "musicId": 48487,
+      "singer": "루시아(심규선)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48487.jpg",
+      "title": "담담하게"
+    },
+    {
+      "musicId": 15202,
+      "singer": "윈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/15202.jpg",
+      "title": "찾을래"
+    },
+    {
+      "musicId": 75964,
+      "singer": "TOIL,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75964.jpg",
+      "title": "네옆에그사람은내가아닌다른사람"
+    },
+    {
+      "musicId": 3431,
+      "singer": "공일오비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3431.jpg",
+      "title": "나의옛친구"
+    },
+    {
+      "musicId": 46108,
+      "singer": "김필",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46108.jpg",
+      "title": "다시사랑한다면(니글니글버터플라이)"
+    },
+    {
+      "musicId": 96190,
+      "singer": "김필",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96190.jpg",
+      "title": "사랑한다면서"
+    },
+    {
+      "musicId": 19588,
+      "singer": "브로콜리너마저",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19588.jpg",
+      "title": "앵콜요청금지"
+    },
+    {
+      "musicId": 54996,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54996.jpg",
+      "title": "너란바람따라(Flower)"
+    },
+    {
+      "musicId": 32935,
+      "singer": "Bobby Kim",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32935.jpg",
+      "title": "외톨이(Acoustic Ver.)"
+    },
+    {
+      "musicId": 67416,
+      "singer": "Gagong Rapper",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/67416.jpg",
+      "title": "Kabet"
+    },
+    {
+      "musicId": 77441,
+      "singer": "ADOY",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77441.jpg",
+      "title": "Baby"
+    },
+    {
+      "musicId": 75153,
+      "singer": "(팡파레)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75153.jpg",
+      "title": "당선 Snare Roll 2"
+    },
+    {
+      "musicId": 81131,
+      "singer": "홍자",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81131.jpg",
+      "title": "화양연화"
+    },
+    {
+      "musicId": 11972,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/11972.jpg",
+      "title": "너이길바래"
+    },
+    {
+      "musicId": 42205,
+      "singer": "미노이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42205.jpg",
+      "title": "하기싫어"
+    },
+    {
+      "musicId": 42498,
+      "singer": "이성국",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42498.jpg",
+      "title": "그립고그리운사람"
+    },
+    {
+      "musicId": 38699,
+      "singer": "소심한오빠들",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/38699.jpg",
+      "title": "나홀로집에"
+    },
+    {
+      "musicId": 39407,
+      "singer": "이설아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39407.jpg",
+      "title": "엄마로산다는것은"
+    },
+    {
+      "musicId": 39469,
+      "singer": "신지수,김필",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39469.jpg",
+      "title": "처음으로(New Day)"
+    },
+    {
+      "musicId": 10988,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10988.jpg",
+      "title": "와줘"
+    },
+    {
+      "musicId": 36306,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36306.jpg",
+      "title": "Just The Two Of Us"
+    },
+    {
+      "musicId": 96300,
+      "singer": "규현",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96300.jpg",
+      "title": "이젠, 안녕(The Parting)"
+    },
+    {
+      "musicId": 49589,
+      "singer": "헨리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49589.jpg",
+      "title": "사랑좀하고싶어(Real Love)"
+    },
+    {
+      "musicId": 97978,
+      "singer": "범키",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97978.jpg",
+      "title": "비그리고너"
+    },
+    {
+      "musicId": 75746,
+      "singer": "김호중,나영주",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75746.jpg",
+      "title": "첫눈처럼너에게가겠다"
+    },
+    {
+      "musicId": 84139,
+      "singer": "김은비(EB)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84139.jpg",
+      "title": "PPP"
+    },
+    {
+      "musicId": 49192,
+      "singer": "노형돈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49192.jpg",
+      "title": "바보처럼"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651ec45832030f6dd2d03a5e"
+  },
+  "userId": 52,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 83308,
+      "singer": "핑크퐁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83308.jpg",
+      "title": "공룡ABC"
+    },
+    {
+      "musicId": 42944,
+      "singer": "Jimmy Paige,기리보이,블랙넛,빌스택스,스윙스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42944.jpg",
+      "title": "Sushi(JM Remix)"
+    },
+    {
+      "musicId": 24796,
+      "singer": "강현준,양홍원(Young B),윤훼이,저스디스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24796.jpg",
+      "title": "나쁜맛"
+    },
+    {
+      "musicId": 66606,
+      "singer": "ANDREW E.",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66606.jpg",
+      "title": "HUMANAP KA NG PANGET"
+    },
+    {
+      "musicId": 76147,
+      "singer": "릴보이(Feat.로꼬,박재범&그레이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76147.jpg",
+      "title": "ON AIR"
+    },
+    {
+      "musicId": 76825,
+      "singer": "DPR LIVE",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76825.jpg",
+      "title": "To Myself"
+    },
+    {
+      "musicId": 82061,
+      "singer": "지코(Feat.창모)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82061.jpg",
+      "title": "Trash Talk"
+    },
+    {
+      "musicId": 24759,
+      "singer": "머쉬베놈(Prod.SLO)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24759.jpg",
+      "title": "왜이리시끄러운것이냐"
+    },
+    {
+      "musicId": 24790,
+      "singer": "머쉬베놈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24790.jpg",
+      "title": "알려좀주쇼"
+    },
+    {
+      "musicId": 82278,
+      "singer": "시온",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82278.jpg",
+      "title": "Braindead"
+    },
+    {
+      "musicId": 4295,
+      "singer": "O.P.P.A",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/4295.jpg",
+      "title": "애국심"
+    },
+    {
+      "musicId": 98347,
+      "singer": "로꼬",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98347.jpg",
+      "title": "OPPA"
+    },
+    {
+      "musicId": 39876,
+      "singer": "빈지노",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39876.jpg",
+      "title": "어쩌라고(So What)"
+    },
+    {
+      "musicId": 81484,
+      "singer": "Blase(Feat.Don Mills 외 다수)(Prod.Yoon)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81484.jpg",
+      "title": "Peace Out(MEGA MIX)"
+    },
+    {
+      "musicId": 5765,
+      "singer": "슈가",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/5765.jpg",
+      "title": "Oh! Mio Dio"
+    },
+    {
+      "musicId": 62917,
+      "singer": "디아크(Feat.수퍼비)(Prod.Way Ched)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62917.jpg",
+      "title": "Cold"
+    },
+    {
+      "musicId": 76547,
+      "singer": "릴보이,테이크원,던말릭,저스디스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76547.jpg",
+      "title": "vv 2(Remix)"
+    },
+    {
+      "musicId": 76106,
+      "singer": "릴보이(Feat.김태균(TakeOne))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76106.jpg",
+      "title": "Bad News Cypher vol.2"
+    },
+    {
+      "musicId": 62875,
+      "singer": "릴보이(Feat.기리보이,빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62875.jpg",
+      "title": "내일이오면"
+    },
+    {
+      "musicId": 91441,
+      "singer": "염따",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/91441.jpg",
+      "title": "zoom"
+    },
+    {
+      "musicId": 81000,
+      "singer": "스키니브라운(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81000.jpg",
+      "title": "Make You Mine"
+    },
+    {
+      "musicId": 54897,
+      "singer": "릴러말즈(Feat.수란)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54897.jpg",
+      "title": "NO!"
+    },
+    {
+      "musicId": 81576,
+      "singer": "부끄뚱(Feat.최유정)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81576.jpg",
+      "title": "쑥맥"
+    },
+    {
+      "musicId": 98076,
+      "singer": "NO:EL(장용준)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98076.jpg",
+      "title": "금수저"
+    },
+    {
+      "musicId": 76729,
+      "singer": "노윤하(Feat,Blase,쿠기,사이먼도미닉)(Prod.GooseBumps)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76729.jpg",
+      "title": "왈왈"
+    },
+    {
+      "musicId": 31458,
+      "singer": "삼자돼면(정형돈,에픽하이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/31458.jpg",
+      "title": "전자깡패"
+    },
+    {
+      "musicId": 83565,
+      "singer": "B.I(Feat.빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83565.jpg",
+      "title": "겁도없이(Dare to Love)"
+    },
+    {
+      "musicId": 98730,
+      "singer": "수퍼비(Feat.창모)(Prod. By 창모)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98730.jpg",
+      "title": "억"
+    },
+    {
+      "musicId": 42534,
+      "singer": "The Quiett,릴러말즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42534.jpg",
+      "title": "Be my"
+    },
+    {
+      "musicId": 97113,
+      "singer": "지투,팔로알토,허클베리피",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97113.jpg",
+      "title": "Rapflicks"
+    },
+    {
+      "musicId": 30965,
+      "singer": "2AM",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30965.jpg",
+      "title": "Lost"
+    },
+    {
+      "musicId": 98746,
+      "singer": "오디(Feat.스윙스)(Prod. By 기리보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98746.jpg",
+      "title": "에어플레인모드"
+    },
+    {
+      "musicId": 54945,
+      "singer": "염따,창모",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54945.jpg",
+      "title": "4 Times"
+    },
+    {
+      "musicId": 77471,
+      "singer": "전소연(Feat.비비(BIBI),이영지)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77471.jpg",
+      "title": "Is this bad b****** number?"
+    },
+    {
+      "musicId": 46853,
+      "singer": "VASCO(Feat.천재노창)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46853.jpg",
+      "title": "YEYE"
+    },
+    {
+      "musicId": 97257,
+      "singer": "DPR LIVE",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97257.jpg",
+      "title": "Text Me"
+    },
+    {
+      "musicId": 76846,
+      "singer": "ASH ISLAND(Feat.수퍼비,박재범,The Quiett)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76846.jpg",
+      "title": "Checks"
+    },
+    {
+      "musicId": 76740,
+      "singer": "최은서,M1NU(미누),YOBOY,권오선",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76740.jpg",
+      "title": "멘토스Remix"
+    },
+    {
+      "musicId": 80856,
+      "singer": "SINCE(Feat.Rakon)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80856.jpg",
+      "title": "봄비"
+    },
+    {
+      "musicId": 62989,
+      "singer": "아넌딜라이트(Anandelight),unofficialboyy,BE'O(비오),지구인,Mudd the student(Feat.송민호)(Prod.그레이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62989.jpg",
+      "title": "쉬어"
+    },
+    {
+      "musicId": 99938,
+      "singer": "레디,Sway D,팔로알토,윤비,지투,허클베리피,캐모스타",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99938.jpg",
+      "title": "Break Bread"
+    },
+    {
+      "musicId": 78870,
+      "singer": "마미손(Feat.원슈타인,김승민)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78870.jpg",
+      "title": "머니세레나데"
+    },
+    {
+      "musicId": 49590,
+      "singer": "싸이(Feat.G-DRAGON)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49590.jpg",
+      "title": "팩트폭행"
+    },
+    {
+      "musicId": 96549,
+      "singer": "쇼미더머니 Top 20",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96549.jpg",
+      "title": "동전한닢 Pt.2(Remix)"
+    },
+    {
+      "musicId": 82722,
+      "singer": "릴러말즈,크루셜스타,QM,김재욱,NSW yoon,다민이(DAMINI)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82722.jpg",
+      "title": "아저씨"
+    },
+    {
+      "musicId": 18561,
+      "singer": "이지라이프",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18561.jpg",
+      "title": "개티즌"
+    },
+    {
+      "musicId": 76299,
+      "singer": "Various Artists",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76299.jpg",
+      "title": "격리해제(CODE CLEAR)"
+    },
+    {
+      "musicId": 45936,
+      "singer": "키겐(팬텀)(Feat.이루펀트,라비,ESBEE)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45936.jpg",
+      "title": "버려진기분"
+    },
+    {
+      "musicId": 45961,
+      "singer": "VASCO,블랙넛,씨잼,천재노창",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45961.jpg",
+      "title": "Indigo Child"
+    },
+    {
+      "musicId": 46037,
+      "singer": "랍티미스트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46037.jpg",
+      "title": "다른사람"
+    },
+    {
+      "musicId": 75618,
+      "singer": "세븐틴",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75618.jpg",
+      "title": "Swimming Fool"
+    },
+    {
+      "musicId": 42218,
+      "singer": "유겸(GOT7)(Feat.로꼬)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42218.jpg",
+      "title": "All About U"
+    },
+    {
+      "musicId": 98595,
+      "singer": "쿠기,수퍼비,디아크(Feat.창모)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98595.jpg",
+      "title": "사임사임"
+    },
+    {
+      "musicId": 75534,
+      "singer": "김요한(Prod.자이언티)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75534.jpg",
+      "title": "No More"
+    },
+    {
+      "musicId": 80810,
+      "singer": "sokodomo(Feat.팔로알토,릴보이)(Prod.피제이,Slom)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80810.jpg",
+      "title": "BE!"
+    },
+    {
+      "musicId": 48934,
+      "singer": "기리보이(Prod. By Big Pie)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48934.jpg",
+      "title": "고속"
+    },
+    {
+      "musicId": 46836,
+      "singer": "플로우식,The Quiett,도끼",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46836.jpg",
+      "title": "RAPSTAR(Remix)"
+    },
+    {
+      "musicId": 53751,
+      "singer": "강현준,최진호(Feat.키드밀리)(Prod. by Coa White)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53751.jpg",
+      "title": "카모플라쥬"
+    },
+    {
+      "musicId": 54823,
+      "singer": "머쉬베놈(Feat.김응수 a.k.a 멋이간놈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54823.jpg",
+      "title": "버르장멋"
+    },
+    {
+      "musicId": 39020,
+      "singer": "바비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39020.jpg",
+      "title": "연결고리#힙합"
+    },
+    {
+      "musicId": 83456,
+      "singer": "IVE(아이브)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83456.jpg",
+      "title": "Cherish"
+    },
+    {
+      "musicId": 24264,
+      "singer": "염따,창모(Feat.Zoorumpug)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24264.jpg",
+      "title": "Don't Touch My Phone"
+    },
+    {
+      "musicId": 98635,
+      "singer": "pH-1(Feat.우원재)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98635.jpg",
+      "title": "Hate You"
+    },
+    {
+      "musicId": 83304,
+      "singer": "핑크퐁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83304.jpg",
+      "title": "경찰차"
+    },
+    {
+      "musicId": 80640,
+      "singer": "27RING(Feat.Asol 외 다수)(Prod.ShahgooN 외 2명)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80640.jpg",
+      "title": "원기옥 RMX"
+    },
+    {
+      "musicId": 48695,
+      "singer": "창모(Feat.빈지노)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48695.jpg",
+      "title": "아이야"
+    },
+    {
+      "musicId": 83965,
+      "singer": "YENA(최예나)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83965.jpg",
+      "title": "BAD HOBBY"
+    },
+    {
+      "musicId": 76968,
+      "singer": "유겸(GOT7)(Feat.DeVita)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76968.jpg",
+      "title": "I Want U Around"
+    },
+    {
+      "musicId": 14918,
+      "singer": "MC몽(Feat.옥주현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14918.jpg",
+      "title": "홈런"
+    },
+    {
+      "musicId": 39660,
+      "singer": "인피니트 H(Feat.류수정(러블리즈))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39660.jpg",
+      "title": "부딪쳐"
+    },
+    {
+      "musicId": 98738,
+      "singer": "EK",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98738.jpg",
+      "title": "GOD GOD GOD"
+    },
+    {
+      "musicId": 75947,
+      "singer": "Way Ched(Feat.창모,쿠기,ASH ISLAND&비비(BIBI))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75947.jpg",
+      "title": "EVERYTHING"
+    },
+    {
+      "musicId": 48886,
+      "singer": "스윙스,최하민",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48886.jpg",
+      "title": "뭔말알"
+    },
+    {
+      "musicId": 53981,
+      "singer": "팔로알토,스월비,조원우,허클베리피(Prod. by Yosi)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53981.jpg",
+      "title": "한라산(Hi-Lite Sign)"
+    },
+    {
+      "musicId": 24090,
+      "singer": "기리보이,오르내림(OLNL),최엘비,김승민",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24090.jpg",
+      "title": "초능력"
+    },
+    {
+      "musicId": 77416,
+      "singer": "실키보이즈(SILKYBOIS)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77416.jpg",
+      "title": "THAT'S FINE"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 96745,
+      "singer": "천재노창",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96745.jpg",
+      "title": "털ㄴ업해야해"
+    },
+    {
+      "musicId": 98211,
+      "singer": "기리보이(Feat.THAMA)(Prod. By dnss)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98211.jpg",
+      "title": "빈집"
+    },
+    {
+      "musicId": 42409,
+      "singer": "스키니브라운(Feat.ASH ISLAND)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42409.jpg",
+      "title": "네비"
+    },
+    {
+      "musicId": 83273,
+      "singer": "저스디스,양홍원(Young B),스윙스(Feat.디보(Dbo))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83273.jpg",
+      "title": "돌아와"
+    },
+    {
+      "musicId": 80775,
+      "singer": "365LIT,황지상(Feat.퀸와사비)(Prod.TOIL)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80775.jpg",
+      "title": "모야모야"
+    },
+    {
+      "musicId": 42993,
+      "singer": "빌스택스(Feat.lobonabeat!,Furyfromguxxi,Boy Wonder)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42993.jpg",
+      "title": "TNF"
+    },
+    {
+      "musicId": 81063,
+      "singer": "쿤타,unofficialboyy(Prod.Slom,Fisherman)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81063.jpg",
+      "title": "Ring Ring"
+    },
+    {
+      "musicId": 38724,
+      "singer": "스윙스(Feat.Dok2,천재노창)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/38724.jpg",
+      "title": "역주행"
+    },
+    {
+      "musicId": 81842,
+      "singer": "빅나티(서동현)(Feat.키드밀리)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81842.jpg",
+      "title": "$$$"
+    },
+    {
+      "musicId": 83979,
+      "singer": "수퍼비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83979.jpg",
+      "title": "Bust Down AP"
+    },
+    {
+      "musicId": 47136,
+      "singer": "팔로알토(Feat.빈지노)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/47136.jpg",
+      "title": "가뭄"
+    },
+    {
+      "musicId": 80843,
+      "singer": "쿤타(Feat.염따,The Quiett,머쉬베놈,래원)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80843.jpg",
+      "title": "Double Up"
+    },
+    {
+      "musicId": 84165,
+      "singer": "TOIL,스키니브라운",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84165.jpg",
+      "title": "DO WHAT MOVES YOU"
+    },
+    {
+      "musicId": 75725,
+      "singer": "블랙핑크",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75725.jpg",
+      "title": "Crazy Over You"
+    },
+    {
+      "musicId": 91921,
+      "singer": "사이먼도미닉(Feat.루피,크러쉬)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/91921.jpg",
+      "title": "make her dance"
+    },
+    {
+      "musicId": 96599,
+      "singer": "키드밀리(Feat.블랙넛)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96599.jpg",
+      "title": "Honmono"
+    },
+    {
+      "musicId": 13950,
+      "singer": "루루",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13950.jpg",
+      "title": "Return"
+    },
+    {
+      "musicId": 39691,
+      "singer": "기리보이(Feat.Gganmo,지코)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39691.jpg",
+      "title": "계획적인여자"
+    },
+    {
+      "musicId": 81155,
+      "singer": "TOIL(Feat.스키니브라운,오왼(Owen))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81155.jpg",
+      "title": "Me"
+    },
+    {
+      "musicId": 11888,
+      "singer": "JTL",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/11888.jpg",
+      "title": "One Night Lover"
+    },
+    {
+      "musicId": 42934,
+      "singer": "썸데프(Feat.저스디스,팔로알토)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42934.jpg",
+      "title": "No Rules"
+    },
+    {
+      "musicId": 49973,
+      "singer": "린(Feat.챈슬러)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49973.jpg",
+      "title": "On& On"
+    },
+    {
+      "musicId": 76472,
+      "singer": "릴보이,원슈타인(Prod.Slom)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76472.jpg",
+      "title": "FRIENDS"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651eed990270563a14955fc5"
+  },
+  "userId": 40,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 96391,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96391.jpg",
+      "title": "폰서트"
+    },
+    {
+      "musicId": 82830,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82830.jpg",
+      "title": "의류수거함"
+    },
+    {
+      "musicId": 53933,
+      "singer": "페노메코",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53933.jpg",
+      "title": "영화한편찍자"
+    },
+    {
+      "musicId": 24733,
+      "singer": "MELOH(Feat.보이비)(Prod.WOOGIE)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24733.jpg",
+      "title": "SMILE"
+    },
+    {
+      "musicId": 18457,
+      "singer": "바나나걸(Feat.한나)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18457.jpg",
+      "title": "콕"
+    },
+    {
+      "musicId": 12924,
+      "singer": "바이브",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/12924.jpg",
+      "title": "You're My Girl"
+    },
+    {
+      "musicId": 24747,
+      "singer": "백예린(Feat.루피)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24747.jpg",
+      "title": "Point"
+    },
+    {
+      "musicId": 98723,
+      "singer": "참깨와솜사탕",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98723.jpg",
+      "title": "Showtime"
+    },
+    {
+      "musicId": 98434,
+      "singer": "기리보이(Feat.크러쉬,최엘비)(Prod. By 코스믹보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98434.jpg",
+      "title": "평화"
+    },
+    {
+      "musicId": 76110,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76110.jpg",
+      "title": "Lovegame"
+    },
+    {
+      "musicId": 32530,
+      "singer": "제리(Feat.하주연)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32530.jpg",
+      "title": "사랑한다"
+    },
+    {
+      "musicId": 83064,
+      "singer": "부석순(세븐틴)(Feat.Peder Elias)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83064.jpg",
+      "title": "7시에들어줘"
+    },
+    {
+      "musicId": 97073,
+      "singer": "그리즐리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97073.jpg",
+      "title": "달라"
+    },
+    {
+      "musicId": 46262,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46262.jpg",
+      "title": "봄이좋냐??"
+    },
+    {
+      "musicId": 14176,
+      "singer": "조항조",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14176.jpg",
+      "title": "흔들린사랑"
+    },
+    {
+      "musicId": 53683,
+      "singer": "NO:EL(장용준)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53683.jpg",
+      "title": "망년회(2017)"
+    },
+    {
+      "musicId": 34567,
+      "singer": "타블로(Feat.이소라)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34567.jpg",
+      "title": "집"
+    },
+    {
+      "musicId": 96436,
+      "singer": "정진우(With 빌런)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96436.jpg",
+      "title": "집에있을게"
+    },
+    {
+      "musicId": 97993,
+      "singer": "빈첸(이병재)(With 하선호)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97993.jpg",
+      "title": "타는목마름으로"
+    },
+    {
+      "musicId": 82909,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82909.jpg",
+      "title": "힘든거알아"
+    },
+    {
+      "musicId": 99972,
+      "singer": "이츠",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99972.jpg",
+      "title": "잠들래"
+    },
+    {
+      "musicId": 49107,
+      "singer": "동미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49107.jpg",
+      "title": "나얼마나"
+    },
+    {
+      "musicId": 46273,
+      "singer": "투빅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46273.jpg",
+      "title": "니꺼내꺼"
+    },
+    {
+      "musicId": 29579,
+      "singer": "SG워너비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29579.jpg",
+      "title": "웃다가울다가"
+    },
+    {
+      "musicId": 81517,
+      "singer": "임한별,박우진(AB6IX(에이비식스))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81517.jpg",
+      "title": "넌나어때"
+    },
+    {
+      "musicId": 76574,
+      "singer": "빅나티(서동현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76574.jpg",
+      "title": "잠깐만"
+    },
+    {
+      "musicId": 96481,
+      "singer": "정진우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96481.jpg",
+      "title": "위성"
+    },
+    {
+      "musicId": 29696,
+      "singer": "치즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29696.jpg",
+      "title": "망고"
+    },
+    {
+      "musicId": 34196,
+      "singer": "태사비애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34196.jpg",
+      "title": "010-7120-7984"
+    },
+    {
+      "musicId": 46320,
+      "singer": "이하이(Feat.바비)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46320.jpg",
+      "title": "안봐도비디오"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 18156,
+      "singer": "버블시스터즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18156.jpg",
+      "title": "아무도 모르게"
+    },
+    {
+      "musicId": 96212,
+      "singer": "넉살(Feat.서사무엘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96212.jpg",
+      "title": "악마들이춤추는댄스홀"
+    },
+    {
+      "musicId": 99820,
+      "singer": "10cm,Humbert",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99820.jpg",
+      "title": "언제나겨울"
+    },
+    {
+      "musicId": 13726,
+      "singer": "박화요비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13726.jpg",
+      "title": "12시5분"
+    },
+    {
+      "musicId": 95632,
+      "singer": "이기윤",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95632.jpg",
+      "title": "어느새내나이"
+    },
+    {
+      "musicId": 3177,
+      "singer": "김현철",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3177.jpg",
+      "title": "이상한남자"
+    },
+    {
+      "musicId": 98939,
+      "singer": "Ra.D(Feat.브라더수)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98939.jpg",
+      "title": "핑퐁(pingpong)"
+    },
+    {
+      "musicId": 62590,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62590.jpg",
+      "title": "매트리스"
+    },
+    {
+      "musicId": 24525,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24525.jpg",
+      "title": "그사람"
+    },
+    {
+      "musicId": 48870,
+      "singer": "하이라이트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48870.jpg",
+      "title": "시작"
+    },
+    {
+      "musicId": 34718,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34718.jpg",
+      "title": "벽지무늬"
+    },
+    {
+      "musicId": 19296,
+      "singer": "이현우 외 다수",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19296.jpg",
+      "title": "기적(서해안생명살리기프로젝트앨범)"
+    },
+    {
+      "musicId": 84361,
+      "singer": "영탁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84361.jpg",
+      "title": "톡톡톡"
+    },
+    {
+      "musicId": 81689,
+      "singer": "정동원",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81689.jpg",
+      "title": "My dream(구필수는없다OST)"
+    },
+    {
+      "musicId": 35410,
+      "singer": "서영은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35410.jpg",
+      "title": "꽃이진다(영화'후궁:제왕의첩'OST)"
+    },
+    {
+      "musicId": 93910,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/93910.jpg",
+      "title": "잊지마요(DON'T FORGET)"
+    },
+    {
+      "musicId": 82335,
+      "singer": "Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82335.jpg",
+      "title": "네가나를"
+    },
+    {
+      "musicId": 78563,
+      "singer": "환별",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78563.jpg",
+      "title": "별자리"
+    },
+    {
+      "musicId": 48715,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48715.jpg",
+      "title": "다좋아"
+    },
+    {
+      "musicId": 75456,
+      "singer": "린다G(Feat.T(윤미래))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75456.jpg",
+      "title": "LINDA"
+    },
+    {
+      "musicId": 13788,
+      "singer": "김정은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13788.jpg",
+      "title": "내게남은사랑을드릴께요(파리의연인OST)"
+    },
+    {
+      "musicId": 36374,
+      "singer": "주영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36374.jpg",
+      "title": "네게난"
+    },
+    {
+      "musicId": 76158,
+      "singer": "김세정",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76158.jpg",
+      "title": "재회(再會)(경이로운소문OST)"
+    },
+    {
+      "musicId": 33399,
+      "singer": "조성모",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33399.jpg",
+      "title": "Everyday Christmas"
+    },
+    {
+      "musicId": 48227,
+      "singer": "기리보이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48227.jpg",
+      "title": "술자리"
+    },
+    {
+      "musicId": 15991,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/15991.jpg",
+      "title": "환상"
+    },
+    {
+      "musicId": 18862,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18862.jpg",
+      "title": "혼자하는 약속"
+    },
+    {
+      "musicId": 22450,
+      "singer": "Jeff Bernat",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/22450.jpg",
+      "title": "Groovin'"
+    },
+    {
+      "musicId": 76494,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76494.jpg",
+      "title": "왜왜왜(Why Why Why)"
+    },
+    {
+      "musicId": 13435,
+      "singer": "정재형,린애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13435.jpg",
+      "title": "서로다른길"
+    },
+    {
+      "musicId": 37638,
+      "singer": "에스나",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/37638.jpg",
+      "title": "아랫입술물고(상속자들OST)"
+    },
+    {
+      "musicId": 19182,
+      "singer": "마리서사",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19182.jpg",
+      "title": "잊어야 한다 "
+    },
+    {
+      "musicId": 84307,
+      "singer": "ASH ISLAND(Feat.릴러말즈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84307.jpg",
+      "title": "Smoking Roses"
+    },
+    {
+      "musicId": 32699,
+      "singer": "뜨거운감자",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32699.jpg",
+      "title": "진취적인그녀"
+    },
+    {
+      "musicId": 36966,
+      "singer": "브라더수(Feat.스윙스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36966.jpg",
+      "title": "왜이러니"
+    },
+    {
+      "musicId": 24614,
+      "singer": "디보(Dbo)(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24614.jpg",
+      "title": "I Could Do Dead"
+    },
+    {
+      "musicId": 80714,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80714.jpg",
+      "title": "가진다는말은좀그렇지?"
+    },
+    {
+      "musicId": 82670,
+      "singer": "GOTCHA !",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82670.jpg",
+      "title": "오늘은꼭(어쩌다발견한하루OST)"
+    },
+    {
+      "musicId": 54906,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54906.jpg",
+      "title": "Not a girl"
+    },
+    {
+      "musicId": 84253,
+      "singer": "NewJeans",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84253.jpg",
+      "title": "Cool With You"
+    },
+    {
+      "musicId": 48422,
+      "singer": "광희,개코(Feat.오혁)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48422.jpg",
+      "title": "당신의밤"
+    },
+    {
+      "musicId": 48437,
+      "singer": "정준하,지코(Feat.김종완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48437.jpg",
+      "title": "지칠때면"
+    },
+    {
+      "musicId": 42520,
+      "singer": "eldon",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42520.jpg",
+      "title": "Monster"
+    },
+    {
+      "musicId": 13056,
+      "singer": "거미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13056.jpg",
+      "title": "가버려"
+    },
+    {
+      "musicId": 76575,
+      "singer": "호미들(Feat.UNEDUCATED KID,Paul Blanco)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76575.jpg",
+      "title": "사이렌 Remix"
+    },
+    {
+      "musicId": 49934,
+      "singer": "선우정아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49934.jpg",
+      "title": "구애"
+    },
+    {
+      "musicId": 88403,
+      "singer": "丁当",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/88403.jpg",
+      "title": "冷血动物"
+    },
+    {
+      "musicId": 97491,
+      "singer": "도끼(Feat.해쉬스완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97491.jpg",
+      "title": "I Don't Know"
+    },
+    {
+      "musicId": 48345,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48345.jpg",
+      "title": "내눈에만보여(도깨비OST)"
+    },
+    {
+      "musicId": 29043,
+      "singer": "그레이(Feat.자이언티,크루셜스타)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29043.jpg",
+      "title": "깜빡"
+    },
+    {
+      "musicId": 76685,
+      "singer": "다운(Feat.릴보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76685.jpg",
+      "title": "연남동"
+    },
+    {
+      "musicId": 66940,
+      "singer": "DICE & K9",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66940.jpg",
+      "title": "ITSUMO"
+    },
+    {
+      "musicId": 45917,
+      "singer": "수지(미스에이),백현(EXO)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45917.jpg",
+      "title": "Dream"
+    },
+    {
+      "musicId": 76753,
+      "singer": "ENHYPEN",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76753.jpg",
+      "title": "Not For Sale"
+    },
+    {
+      "musicId": 49495,
+      "singer": "IU(Feat.G-DRAGON)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49495.jpg",
+      "title": "팔레트"
+    },
+    {
+      "musicId": 82482,
+      "singer": "(여자)아이들",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82482.jpg",
+      "title": "DARK(X-file)"
+    },
+    {
+      "musicId": 48996,
+      "singer": "자이언티",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48996.jpg",
+      "title": "Comedian"
+    },
+    {
+      "musicId": 30099,
+      "singer": "빅뱅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30099.jpg",
+      "title": "착한사람"
+    },
+    {
+      "musicId": 83166,
+      "singer": "투모로우바이투게더",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83166.jpg",
+      "title": "이젠안녕(연애혁명 X 투모로우바이투게더)"
+    },
+    {
+      "musicId": 81222,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81222.jpg",
+      "title": "2022년 2월 22일"
+    },
+    {
+      "musicId": 83762,
+      "singer": "Way Ched(Feat.릴러말즈,빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83762.jpg",
+      "title": "뚝"
+    },
+    {
+      "musicId": 98640,
+      "singer": "자이언티(Feat.슬기(레드벨벳))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98640.jpg",
+      "title": "멋지게인사하는법"
+    },
+    {
+      "musicId": 77363,
+      "singer": "허각,2F(신용재,김원주)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77363.jpg",
+      "title": "비가내리기전에"
+    },
+    {
+      "musicId": 77505,
+      "singer": "D.O.(EXO)(Feat.원슈타인)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77505.jpg",
+      "title": "I'm Gonna Love You"
+    },
+    {
+      "musicId": 39790,
+      "singer": "니엘",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39790.jpg",
+      "title": "Only You"
+    },
+    {
+      "musicId": 24293,
+      "singer": "헤이즈(Feat.콜드)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24293.jpg",
+      "title": "DAUM"
+    },
+    {
+      "musicId": 78896,
+      "singer": "마틴스미스(Feat.정성하)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78896.jpg",
+      "title": "미쳤나봐"
+    },
+    {
+      "musicId": 14918,
+      "singer": "MC몽(Feat.옥주현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14918.jpg",
+      "title": "홈런"
+    },
+    {
+      "musicId": 10988,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10988.jpg",
+      "title": "와줘"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651ef03e4cd85662ae6a77da"
+  },
+  "userId": 51,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 96391,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96391.jpg",
+      "title": "폰서트"
+    },
+    {
+      "musicId": 82830,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82830.jpg",
+      "title": "의류수거함"
+    },
+    {
+      "musicId": 53933,
+      "singer": "페노메코",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53933.jpg",
+      "title": "영화한편찍자"
+    },
+    {
+      "musicId": 24733,
+      "singer": "MELOH(Feat.보이비)(Prod.WOOGIE)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24733.jpg",
+      "title": "SMILE"
+    },
+    {
+      "musicId": 18457,
+      "singer": "바나나걸(Feat.한나)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18457.jpg",
+      "title": "콕"
+    },
+    {
+      "musicId": 12924,
+      "singer": "바이브",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/12924.jpg",
+      "title": "You're My Girl"
+    },
+    {
+      "musicId": 24747,
+      "singer": "백예린(Feat.루피)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24747.jpg",
+      "title": "Point"
+    },
+    {
+      "musicId": 98723,
+      "singer": "참깨와솜사탕",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98723.jpg",
+      "title": "Showtime"
+    },
+    {
+      "musicId": 98434,
+      "singer": "기리보이(Feat.크러쉬,최엘비)(Prod. By 코스믹보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98434.jpg",
+      "title": "평화"
+    },
+    {
+      "musicId": 76110,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76110.jpg",
+      "title": "Lovegame"
+    },
+    {
+      "musicId": 32530,
+      "singer": "제리(Feat.하주연)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32530.jpg",
+      "title": "사랑한다"
+    },
+    {
+      "musicId": 83064,
+      "singer": "부석순(세븐틴)(Feat.Peder Elias)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83064.jpg",
+      "title": "7시에들어줘"
+    },
+    {
+      "musicId": 97073,
+      "singer": "그리즐리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97073.jpg",
+      "title": "달라"
+    },
+    {
+      "musicId": 46262,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46262.jpg",
+      "title": "봄이좋냐??"
+    },
+    {
+      "musicId": 14176,
+      "singer": "조항조",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14176.jpg",
+      "title": "흔들린사랑"
+    },
+    {
+      "musicId": 53683,
+      "singer": "NO:EL(장용준)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53683.jpg",
+      "title": "망년회(2017)"
+    },
+    {
+      "musicId": 34567,
+      "singer": "타블로(Feat.이소라)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34567.jpg",
+      "title": "집"
+    },
+    {
+      "musicId": 96436,
+      "singer": "정진우(With 빌런)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96436.jpg",
+      "title": "집에있을게"
+    },
+    {
+      "musicId": 97993,
+      "singer": "빈첸(이병재)(With 하선호)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97993.jpg",
+      "title": "타는목마름으로"
+    },
+    {
+      "musicId": 82909,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82909.jpg",
+      "title": "힘든거알아"
+    },
+    {
+      "musicId": 99972,
+      "singer": "이츠",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99972.jpg",
+      "title": "잠들래"
+    },
+    {
+      "musicId": 49107,
+      "singer": "동미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49107.jpg",
+      "title": "나얼마나"
+    },
+    {
+      "musicId": 46273,
+      "singer": "투빅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46273.jpg",
+      "title": "니꺼내꺼"
+    },
+    {
+      "musicId": 29579,
+      "singer": "SG워너비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29579.jpg",
+      "title": "웃다가울다가"
+    },
+    {
+      "musicId": 81517,
+      "singer": "임한별,박우진(AB6IX(에이비식스))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81517.jpg",
+      "title": "넌나어때"
+    },
+    {
+      "musicId": 76574,
+      "singer": "빅나티(서동현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76574.jpg",
+      "title": "잠깐만"
+    },
+    {
+      "musicId": 96481,
+      "singer": "정진우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96481.jpg",
+      "title": "위성"
+    },
+    {
+      "musicId": 29696,
+      "singer": "치즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29696.jpg",
+      "title": "망고"
+    },
+    {
+      "musicId": 34196,
+      "singer": "태사비애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34196.jpg",
+      "title": "010-7120-7984"
+    },
+    {
+      "musicId": 46320,
+      "singer": "이하이(Feat.바비)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46320.jpg",
+      "title": "안봐도비디오"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 18156,
+      "singer": "버블시스터즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18156.jpg",
+      "title": "아무도 모르게"
+    },
+    {
+      "musicId": 96212,
+      "singer": "넉살(Feat.서사무엘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96212.jpg",
+      "title": "악마들이춤추는댄스홀"
+    },
+    {
+      "musicId": 99820,
+      "singer": "10cm,Humbert",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99820.jpg",
+      "title": "언제나겨울"
+    },
+    {
+      "musicId": 13726,
+      "singer": "박화요비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13726.jpg",
+      "title": "12시5분"
+    },
+    {
+      "musicId": 95632,
+      "singer": "이기윤",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95632.jpg",
+      "title": "어느새내나이"
+    },
+    {
+      "musicId": 3177,
+      "singer": "김현철",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3177.jpg",
+      "title": "이상한남자"
+    },
+    {
+      "musicId": 98939,
+      "singer": "Ra.D(Feat.브라더수)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98939.jpg",
+      "title": "핑퐁(pingpong)"
+    },
+    {
+      "musicId": 62590,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62590.jpg",
+      "title": "매트리스"
+    },
+    {
+      "musicId": 24525,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24525.jpg",
+      "title": "그사람"
+    },
+    {
+      "musicId": 48870,
+      "singer": "하이라이트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48870.jpg",
+      "title": "시작"
+    },
+    {
+      "musicId": 34718,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34718.jpg",
+      "title": "벽지무늬"
+    },
+    {
+      "musicId": 19296,
+      "singer": "이현우 외 다수",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19296.jpg",
+      "title": "기적(서해안생명살리기프로젝트앨범)"
+    },
+    {
+      "musicId": 84361,
+      "singer": "영탁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84361.jpg",
+      "title": "톡톡톡"
+    },
+    {
+      "musicId": 81689,
+      "singer": "정동원",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81689.jpg",
+      "title": "My dream(구필수는없다OST)"
+    },
+    {
+      "musicId": 35410,
+      "singer": "서영은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35410.jpg",
+      "title": "꽃이진다(영화'후궁:제왕의첩'OST)"
+    },
+    {
+      "musicId": 93910,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/93910.jpg",
+      "title": "잊지마요(DON'T FORGET)"
+    },
+    {
+      "musicId": 82335,
+      "singer": "Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82335.jpg",
+      "title": "네가나를"
+    },
+    {
+      "musicId": 78563,
+      "singer": "환별",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78563.jpg",
+      "title": "별자리"
+    },
+    {
+      "musicId": 48715,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48715.jpg",
+      "title": "다좋아"
+    },
+    {
+      "musicId": 75456,
+      "singer": "린다G(Feat.T(윤미래))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75456.jpg",
+      "title": "LINDA"
+    },
+    {
+      "musicId": 13788,
+      "singer": "김정은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13788.jpg",
+      "title": "내게남은사랑을드릴께요(파리의연인OST)"
+    },
+    {
+      "musicId": 36374,
+      "singer": "주영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36374.jpg",
+      "title": "네게난"
+    },
+    {
+      "musicId": 76158,
+      "singer": "김세정",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76158.jpg",
+      "title": "재회(再會)(경이로운소문OST)"
+    },
+    {
+      "musicId": 33399,
+      "singer": "조성모",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33399.jpg",
+      "title": "Everyday Christmas"
+    },
+    {
+      "musicId": 48227,
+      "singer": "기리보이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48227.jpg",
+      "title": "술자리"
+    },
+    {
+      "musicId": 15991,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/15991.jpg",
+      "title": "환상"
+    },
+    {
+      "musicId": 18862,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18862.jpg",
+      "title": "혼자하는 약속"
+    },
+    {
+      "musicId": 22450,
+      "singer": "Jeff Bernat",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/22450.jpg",
+      "title": "Groovin'"
+    },
+    {
+      "musicId": 76494,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76494.jpg",
+      "title": "왜왜왜(Why Why Why)"
+    },
+    {
+      "musicId": 13435,
+      "singer": "정재형,린애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13435.jpg",
+      "title": "서로다른길"
+    },
+    {
+      "musicId": 37638,
+      "singer": "에스나",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/37638.jpg",
+      "title": "아랫입술물고(상속자들OST)"
+    },
+    {
+      "musicId": 19182,
+      "singer": "마리서사",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19182.jpg",
+      "title": "잊어야 한다 "
+    },
+    {
+      "musicId": 84307,
+      "singer": "ASH ISLAND(Feat.릴러말즈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84307.jpg",
+      "title": "Smoking Roses"
+    },
+    {
+      "musicId": 32699,
+      "singer": "뜨거운감자",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32699.jpg",
+      "title": "진취적인그녀"
+    },
+    {
+      "musicId": 36966,
+      "singer": "브라더수(Feat.스윙스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36966.jpg",
+      "title": "왜이러니"
+    },
+    {
+      "musicId": 24614,
+      "singer": "디보(Dbo)(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24614.jpg",
+      "title": "I Could Do Dead"
+    },
+    {
+      "musicId": 80714,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80714.jpg",
+      "title": "가진다는말은좀그렇지?"
+    },
+    {
+      "musicId": 82670,
+      "singer": "GOTCHA !",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82670.jpg",
+      "title": "오늘은꼭(어쩌다발견한하루OST)"
+    },
+    {
+      "musicId": 54906,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54906.jpg",
+      "title": "Not a girl"
+    },
+    {
+      "musicId": 84253,
+      "singer": "NewJeans",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84253.jpg",
+      "title": "Cool With You"
+    },
+    {
+      "musicId": 48422,
+      "singer": "광희,개코(Feat.오혁)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48422.jpg",
+      "title": "당신의밤"
+    },
+    {
+      "musicId": 48437,
+      "singer": "정준하,지코(Feat.김종완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48437.jpg",
+      "title": "지칠때면"
+    },
+    {
+      "musicId": 42520,
+      "singer": "eldon",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42520.jpg",
+      "title": "Monster"
+    },
+    {
+      "musicId": 13056,
+      "singer": "거미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13056.jpg",
+      "title": "가버려"
+    },
+    {
+      "musicId": 76575,
+      "singer": "호미들(Feat.UNEDUCATED KID,Paul Blanco)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76575.jpg",
+      "title": "사이렌 Remix"
+    },
+    {
+      "musicId": 49934,
+      "singer": "선우정아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49934.jpg",
+      "title": "구애"
+    },
+    {
+      "musicId": 88403,
+      "singer": "丁当",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/88403.jpg",
+      "title": "冷血动物"
+    },
+    {
+      "musicId": 97491,
+      "singer": "도끼(Feat.해쉬스완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97491.jpg",
+      "title": "I Don't Know"
+    },
+    {
+      "musicId": 48345,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48345.jpg",
+      "title": "내눈에만보여(도깨비OST)"
+    },
+    {
+      "musicId": 29043,
+      "singer": "그레이(Feat.자이언티,크루셜스타)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29043.jpg",
+      "title": "깜빡"
+    },
+    {
+      "musicId": 76685,
+      "singer": "다운(Feat.릴보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76685.jpg",
+      "title": "연남동"
+    },
+    {
+      "musicId": 66940,
+      "singer": "DICE & K9",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66940.jpg",
+      "title": "ITSUMO"
+    },
+    {
+      "musicId": 45917,
+      "singer": "수지(미스에이),백현(EXO)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45917.jpg",
+      "title": "Dream"
+    },
+    {
+      "musicId": 76753,
+      "singer": "ENHYPEN",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76753.jpg",
+      "title": "Not For Sale"
+    },
+    {
+      "musicId": 49495,
+      "singer": "IU(Feat.G-DRAGON)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49495.jpg",
+      "title": "팔레트"
+    },
+    {
+      "musicId": 82482,
+      "singer": "(여자)아이들",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82482.jpg",
+      "title": "DARK(X-file)"
+    },
+    {
+      "musicId": 48996,
+      "singer": "자이언티",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48996.jpg",
+      "title": "Comedian"
+    },
+    {
+      "musicId": 30099,
+      "singer": "빅뱅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30099.jpg",
+      "title": "착한사람"
+    },
+    {
+      "musicId": 83166,
+      "singer": "투모로우바이투게더",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83166.jpg",
+      "title": "이젠안녕(연애혁명 X 투모로우바이투게더)"
+    },
+    {
+      "musicId": 81222,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81222.jpg",
+      "title": "2022년 2월 22일"
+    },
+    {
+      "musicId": 83762,
+      "singer": "Way Ched(Feat.릴러말즈,빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83762.jpg",
+      "title": "뚝"
+    },
+    {
+      "musicId": 98640,
+      "singer": "자이언티(Feat.슬기(레드벨벳))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98640.jpg",
+      "title": "멋지게인사하는법"
+    },
+    {
+      "musicId": 77363,
+      "singer": "허각,2F(신용재,김원주)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77363.jpg",
+      "title": "비가내리기전에"
+    },
+    {
+      "musicId": 77505,
+      "singer": "D.O.(EXO)(Feat.원슈타인)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77505.jpg",
+      "title": "I'm Gonna Love You"
+    },
+    {
+      "musicId": 39790,
+      "singer": "니엘",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39790.jpg",
+      "title": "Only You"
+    },
+    {
+      "musicId": 24293,
+      "singer": "헤이즈(Feat.콜드)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24293.jpg",
+      "title": "DAUM"
+    },
+    {
+      "musicId": 78896,
+      "singer": "마틴스미스(Feat.정성하)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78896.jpg",
+      "title": "미쳤나봐"
+    },
+    {
+      "musicId": 14918,
+      "singer": "MC몽(Feat.옥주현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14918.jpg",
+      "title": "홈런"
+    },
+    {
+      "musicId": 10988,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10988.jpg",
+      "title": "와줘"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651f558f39f3ed7964da9cff"
+  },
+  "userId": 37,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 24761,
+      "singer": "빅나티(서동현)(Feat.기리보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24761.jpg",
+      "title": "휴"
+    },
+    {
+      "musicId": 42534,
+      "singer": "The Quiett,릴러말즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42534.jpg",
+      "title": "Be my"
+    },
+    {
+      "musicId": 45961,
+      "singer": "VASCO,블랙넛,씨잼,천재노창",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45961.jpg",
+      "title": "Indigo Child"
+    },
+    {
+      "musicId": 47294,
+      "singer": "히식스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/47294.jpg",
+      "title": "초원의사랑"
+    },
+    {
+      "musicId": 2813,
+      "singer": "하수영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/2813.jpg",
+      "title": "길"
+    },
+    {
+      "musicId": 82278,
+      "singer": "시온",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82278.jpg",
+      "title": "Braindead"
+    },
+    {
+      "musicId": 77416,
+      "singer": "실키보이즈(SILKYBOIS)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77416.jpg",
+      "title": "THAT'S FINE"
+    },
+    {
+      "musicId": 39379,
+      "singer": "이진아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39379.jpg",
+      "title": "시간아천천히"
+    },
+    {
+      "musicId": 35106,
+      "singer": "프라이머리(Feat.다이나믹듀오)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35106.jpg",
+      "title": "자니"
+    },
+    {
+      "musicId": 31458,
+      "singer": "삼자돼면(정형돈,에픽하이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/31458.jpg",
+      "title": "전자깡패"
+    },
+    {
+      "musicId": 46794,
+      "singer": "기리보이(With 최단비)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46794.jpg",
+      "title": "내몸이불타오르고있어"
+    },
+    {
+      "musicId": 81000,
+      "singer": "스키니브라운(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81000.jpg",
+      "title": "Make You Mine"
+    },
+    {
+      "musicId": 75707,
+      "singer": "염따",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75707.jpg",
+      "title": "BENTLEY 1.5"
+    },
+    {
+      "musicId": 81222,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81222.jpg",
+      "title": "2022년 2월 22일"
+    },
+    {
+      "musicId": 76472,
+      "singer": "릴보이,원슈타인(Prod.Slom)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76472.jpg",
+      "title": "FRIENDS"
+    },
+    {
+      "musicId": 8428,
+      "singer": "O2R",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/8428.jpg",
+      "title": "I Know You"
+    },
+    {
+      "musicId": 76526,
+      "singer": "사이먼도미닉",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76526.jpg",
+      "title": "Party Forever"
+    },
+    {
+      "musicId": 99979,
+      "singer": "NO:EL(장용준)(Feat.Benzamin)(Prod. By dnss)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99979.jpg",
+      "title": "지구"
+    },
+    {
+      "musicId": 42944,
+      "singer": "Jimmy Paige,기리보이,블랙넛,빌스택스,스윙스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42944.jpg",
+      "title": "Sushi(JM Remix)"
+    },
+    {
+      "musicId": 80746,
+      "singer": "기리보이(Feat.서리(Seori))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80746.jpg",
+      "title": "우린결국그렇게"
+    },
+    {
+      "musicId": 82529,
+      "singer": "릴러말즈(Feat.Gist)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82529.jpg",
+      "title": "불편해"
+    },
+    {
+      "musicId": 82768,
+      "singer": "시온",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82768.jpg",
+      "title": "comedy"
+    },
+    {
+      "musicId": 35188,
+      "singer": "버스커버스커",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35188.jpg",
+      "title": "외로움증폭장치(브래드드럼한판쉬기)"
+    },
+    {
+      "musicId": 81576,
+      "singer": "부끄뚱(Feat.최유정)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81576.jpg",
+      "title": "쑥맥"
+    },
+    {
+      "musicId": 54897,
+      "singer": "릴러말즈(Feat.수란)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54897.jpg",
+      "title": "NO!"
+    },
+    {
+      "musicId": 29658,
+      "singer": "사이먼도미닉(Feat.박재범)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29658.jpg",
+      "title": "￦ & Only(Won & Only)"
+    },
+    {
+      "musicId": 7882,
+      "singer": "America Traditional",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/7882.jpg",
+      "title": "Ace of sorrow"
+    },
+    {
+      "musicId": 98852,
+      "singer": "행주(Feat.개코)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98852.jpg",
+      "title": "Drive Thru"
+    },
+    {
+      "musicId": 76156,
+      "singer": "원슈타인",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76156.jpg",
+      "title": "X(Butterfly)"
+    },
+    {
+      "musicId": 1497,
+      "singer": "위키리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/1497.jpg",
+      "title": "미련도후회도없다"
+    },
+    {
+      "musicId": 24264,
+      "singer": "염따,창모(Feat.Zoorumpug)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24264.jpg",
+      "title": "Don't Touch My Phone"
+    },
+    {
+      "musicId": 24340,
+      "singer": "픽보이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24340.jpg",
+      "title": "KELLY"
+    },
+    {
+      "musicId": 83124,
+      "singer": "손태진,황영웅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83124.jpg",
+      "title": "비나리"
+    },
+    {
+      "musicId": 11888,
+      "singer": "JTL",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/11888.jpg",
+      "title": "One Night Lover"
+    },
+    {
+      "musicId": 46439,
+      "singer": "기리보이(Feat.DJ SQ,한요한)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46439.jpg",
+      "title": "하루종일"
+    },
+    {
+      "musicId": 5208,
+      "singer": "투코리언스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/5208.jpg",
+      "title": "벽오동"
+    },
+    {
+      "musicId": 81272,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81272.jpg",
+      "title": "부럽지가않어"
+    },
+    {
+      "musicId": 91441,
+      "singer": "염따",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/91441.jpg",
+      "title": "zoom"
+    },
+    {
+      "musicId": 82908,
+      "singer": "Anonymous Artists(어나니머스아티스트)(Art.이민석)(Prod.GC)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82908.jpg",
+      "title": "퇴사"
+    },
+    {
+      "musicId": 48574,
+      "singer": "자이언티(Feat.빈지노)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48574.jpg",
+      "title": "미안해"
+    },
+    {
+      "musicId": 32553,
+      "singer": "Supreme Team(Simon D Solo)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32553.jpg",
+      "title": "Where U At?"
+    },
+    {
+      "musicId": 5765,
+      "singer": "슈가",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/5765.jpg",
+      "title": "Oh! Mio Dio"
+    },
+    {
+      "musicId": 48049,
+      "singer": "비와이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48049.jpg",
+      "title": "자화상"
+    },
+    {
+      "musicId": 16477,
+      "singer": "올블랙(Feat.권기범)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/16477.jpg",
+      "title": "부재(The Thrill)"
+    },
+    {
+      "musicId": 18561,
+      "singer": "이지라이프",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18561.jpg",
+      "title": "개티즌"
+    },
+    {
+      "musicId": 42934,
+      "singer": "썸데프(Feat.저스디스,팔로알토)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42934.jpg",
+      "title": "No Rules"
+    },
+    {
+      "musicId": 13503,
+      "singer": "XO",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13503.jpg",
+      "title": "전화"
+    },
+    {
+      "musicId": 95853,
+      "singer": "장덕",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95853.jpg",
+      "title": "소녀와가로등"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 76161,
+      "singer": "래원(Layone)(Feat.이영지,JAMIE(제이미)&팔로알토)(Prod.코드쿤스트)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76161.jpg",
+      "title": "Yay"
+    },
+    {
+      "musicId": 32707,
+      "singer": "소연(티아라)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32707.jpg",
+      "title": "뭐라고끝낼까(영화'고사2:교생실습'OST)"
+    },
+    {
+      "musicId": 95769,
+      "singer": "최백호",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95769.jpg",
+      "title": "옛날옛날"
+    },
+    {
+      "musicId": 35432,
+      "singer": "프라이머리(Feat.최자,사이먼도미닉)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35432.jpg",
+      "title": "입장정리"
+    },
+    {
+      "musicId": 75656,
+      "singer": "펀치넬로(Feat.키드밀리)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75656.jpg",
+      "title": "fine!"
+    },
+    {
+      "musicId": 76468,
+      "singer": "빅나티(서동현)(Feat.JAMIE(제이미))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76468.jpg",
+      "title": "Joker"
+    },
+    {
+      "musicId": 13213,
+      "singer": "트레스패스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13213.jpg",
+      "title": "새로운시작"
+    },
+    {
+      "musicId": 24796,
+      "singer": "강현준,양홍원(Young B),윤훼이,저스디스",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24796.jpg",
+      "title": "나쁜맛"
+    },
+    {
+      "musicId": 8925,
+      "singer": "가곡",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/8925.jpg",
+      "title": "추억(김성태곡)"
+    },
+    {
+      "musicId": 99771,
+      "singer": "팔로알토",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99771.jpg",
+      "title": "Fuck It"
+    },
+    {
+      "musicId": 99938,
+      "singer": "레디,Sway D,팔로알토,윤비,지투,허클베리피,캐모스타",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99938.jpg",
+      "title": "Break Bread"
+    },
+    {
+      "musicId": 76157,
+      "singer": "기리보이(Prod. By 기리보이)(Feat.카키(Khakii),김모노,안병웅)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76157.jpg",
+      "title": "리버스"
+    },
+    {
+      "musicId": 46037,
+      "singer": "랍티미스트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46037.jpg",
+      "title": "다른사람"
+    },
+    {
+      "musicId": 14247,
+      "singer": "이상열",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14247.jpg",
+      "title": "사랑과우정"
+    },
+    {
+      "musicId": 81063,
+      "singer": "쿤타,unofficialboyy(Prod.Slom,Fisherman)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81063.jpg",
+      "title": "Ring Ring"
+    },
+    {
+      "musicId": 75618,
+      "singer": "세븐틴",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75618.jpg",
+      "title": "Swimming Fool"
+    },
+    {
+      "musicId": 81479,
+      "singer": "Anonymous Artists(Art.WET BOY)(Feat.누구?)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81479.jpg",
+      "title": "너를사랑한다는말이발음안돼"
+    },
+    {
+      "musicId": 45641,
+      "singer": "Verbal Jint",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45641.jpg",
+      "title": "생음악"
+    },
+    {
+      "musicId": 77414,
+      "singer": "SOUND PALETTE(Song by 줍에이(Joob A))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77414.jpg",
+      "title": "I'm in L but"
+    },
+    {
+      "musicId": 77444,
+      "singer": "릴보이,원슈타인(Prod.피제이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77444.jpg",
+      "title": "LASER"
+    },
+    {
+      "musicId": 545,
+      "singer": "백년설",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/545.jpg",
+      "title": "나그네설움"
+    },
+    {
+      "musicId": 12936,
+      "singer": "긱스(GiGs)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/12936.jpg",
+      "title": "새벽네시전화벨"
+    },
+    {
+      "musicId": 101,
+      "singer": "윤일로",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/101.jpg",
+      "title": "월남의달밤"
+    },
+    {
+      "musicId": 3140,
+      "singer": "하수영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3140.jpg",
+      "title": "아내에게바치는노래"
+    },
+    {
+      "musicId": 35297,
+      "singer": "이준기",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35297.jpg",
+      "title": "칭찬해줘"
+    },
+    {
+      "musicId": 83304,
+      "singer": "핑크퐁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83304.jpg",
+      "title": "경찰차"
+    },
+    {
+      "musicId": 81231,
+      "singer": "에픽하이(Feat.김필)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81231.jpg",
+      "title": "가족관계증명서"
+    },
+    {
+      "musicId": 76825,
+      "singer": "DPR LIVE",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76825.jpg",
+      "title": "To Myself"
+    },
+    {
+      "musicId": 80798,
+      "singer": "아넌딜라이트(Anandelight)(Feat.이하이)(Prod.그레이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80798.jpg",
+      "title": "높이"
+    },
+    {
+      "musicId": 62917,
+      "singer": "디아크(Feat.수퍼비)(Prod.Way Ched)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62917.jpg",
+      "title": "Cold"
+    },
+    {
+      "musicId": 98675,
+      "singer": "이문세(Feat.헤이즈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98675.jpg",
+      "title": "희미해서"
+    },
+    {
+      "musicId": 37398,
+      "singer": "박진영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/37398.jpg",
+      "title": "놀만큼놀아봤어(Had Enough Parties)"
+    },
+    {
+      "musicId": 81868,
+      "singer": "쿠기(Feat.이하이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81868.jpg",
+      "title": "Alone"
+    },
+    {
+      "musicId": 8267,
+      "singer": "아일랜드",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/8267.jpg",
+      "title": "안식"
+    },
+    {
+      "musicId": 83308,
+      "singer": "핑크퐁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83308.jpg",
+      "title": "공룡ABC"
+    },
+    {
+      "musicId": 23269,
+      "singer": "Lauv",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/23269.jpg",
+      "title": "Paris In The Rain"
+    },
+    {
+      "musicId": 38758,
+      "singer": "스윙스(Feat.Verbal Jint,40)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/38758.jpg",
+      "title": "전화번호"
+    },
+    {
+      "musicId": 97015,
+      "singer": "크러쉬",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97015.jpg",
+      "title": "내편이돼줘"
+    },
+    {
+      "musicId": 39876,
+      "singer": "빈지노",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39876.jpg",
+      "title": "어쩌라고(So What)"
+    },
+    {
+      "musicId": 3242,
+      "singer": "송창식",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3242.jpg",
+      "title": "동해의태양(내나라내겨레)"
+    },
+    {
+      "musicId": 82126,
+      "singer": "과나",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82126.jpg",
+      "title": "나만찌질한인간인가봐"
+    },
+    {
+      "musicId": 1265,
+      "singer": "배호",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/1265.jpg",
+      "title": "막차로떠난여자"
+    },
+    {
+      "musicId": 96963,
+      "singer": "DPR LIVE",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96963.jpg",
+      "title": "Martini Blue"
+    },
+    {
+      "musicId": 45731,
+      "singer": "미스티멜로우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45731.jpg",
+      "title": "자꾸생각이나더라"
+    },
+    {
+      "musicId": 98914,
+      "singer": "pH-1",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98914.jpg",
+      "title": "Homebody"
+    },
+    {
+      "musicId": 45363,
+      "singer": "종현(샤이니)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45363.jpg",
+      "title": "U& I"
+    },
+    {
+      "musicId": 48007,
+      "singer": "비와이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48007.jpg",
+      "title": "Someday"
+    },
+    {
+      "musicId": 66606,
+      "singer": "ANDREW E.",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66606.jpg",
+      "title": "HUMANAP KA NG PANGET"
+    },
+    {
+      "musicId": 98211,
+      "singer": "기리보이(Feat.THAMA)(Prod. By dnss)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98211.jpg",
+      "title": "빈집"
+    },
+    {
+      "musicId": 582,
+      "singer": "최백호",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/582.jpg",
+      "title": "내마음갈곳을잃어"
+    },
+    {
+      "musicId": 11337,
+      "singer": "G-Masta",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/11337.jpg",
+      "title": "낚시"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651f593b39f3ed7964da9d00"
+  },
+  "userId": 38,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 96391,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96391.jpg",
+      "title": "폰서트"
+    },
+    {
+      "musicId": 82830,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82830.jpg",
+      "title": "의류수거함"
+    },
+    {
+      "musicId": 53933,
+      "singer": "페노메코",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53933.jpg",
+      "title": "영화한편찍자"
+    },
+    {
+      "musicId": 24733,
+      "singer": "MELOH(Feat.보이비)(Prod.WOOGIE)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24733.jpg",
+      "title": "SMILE"
+    },
+    {
+      "musicId": 18457,
+      "singer": "바나나걸(Feat.한나)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18457.jpg",
+      "title": "콕"
+    },
+    {
+      "musicId": 12924,
+      "singer": "바이브",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/12924.jpg",
+      "title": "You're My Girl"
+    },
+    {
+      "musicId": 24747,
+      "singer": "백예린(Feat.루피)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24747.jpg",
+      "title": "Point"
+    },
+    {
+      "musicId": 98723,
+      "singer": "참깨와솜사탕",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98723.jpg",
+      "title": "Showtime"
+    },
+    {
+      "musicId": 98434,
+      "singer": "기리보이(Feat.크러쉬,최엘비)(Prod. By 코스믹보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98434.jpg",
+      "title": "평화"
+    },
+    {
+      "musicId": 76110,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76110.jpg",
+      "title": "Lovegame"
+    },
+    {
+      "musicId": 32530,
+      "singer": "제리(Feat.하주연)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32530.jpg",
+      "title": "사랑한다"
+    },
+    {
+      "musicId": 83064,
+      "singer": "부석순(세븐틴)(Feat.Peder Elias)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83064.jpg",
+      "title": "7시에들어줘"
+    },
+    {
+      "musicId": 97073,
+      "singer": "그리즐리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97073.jpg",
+      "title": "달라"
+    },
+    {
+      "musicId": 46262,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46262.jpg",
+      "title": "봄이좋냐??"
+    },
+    {
+      "musicId": 14176,
+      "singer": "조항조",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14176.jpg",
+      "title": "흔들린사랑"
+    },
+    {
+      "musicId": 53683,
+      "singer": "NO:EL(장용준)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53683.jpg",
+      "title": "망년회(2017)"
+    },
+    {
+      "musicId": 34567,
+      "singer": "타블로(Feat.이소라)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34567.jpg",
+      "title": "집"
+    },
+    {
+      "musicId": 96436,
+      "singer": "정진우(With 빌런)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96436.jpg",
+      "title": "집에있을게"
+    },
+    {
+      "musicId": 97993,
+      "singer": "빈첸(이병재)(With 하선호)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97993.jpg",
+      "title": "타는목마름으로"
+    },
+    {
+      "musicId": 82909,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82909.jpg",
+      "title": "힘든거알아"
+    },
+    {
+      "musicId": 99972,
+      "singer": "이츠",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99972.jpg",
+      "title": "잠들래"
+    },
+    {
+      "musicId": 49107,
+      "singer": "동미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49107.jpg",
+      "title": "나얼마나"
+    },
+    {
+      "musicId": 46273,
+      "singer": "투빅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46273.jpg",
+      "title": "니꺼내꺼"
+    },
+    {
+      "musicId": 29579,
+      "singer": "SG워너비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29579.jpg",
+      "title": "웃다가울다가"
+    },
+    {
+      "musicId": 81517,
+      "singer": "임한별,박우진(AB6IX(에이비식스))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81517.jpg",
+      "title": "넌나어때"
+    },
+    {
+      "musicId": 76574,
+      "singer": "빅나티(서동현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76574.jpg",
+      "title": "잠깐만"
+    },
+    {
+      "musicId": 96481,
+      "singer": "정진우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96481.jpg",
+      "title": "위성"
+    },
+    {
+      "musicId": 29696,
+      "singer": "치즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29696.jpg",
+      "title": "망고"
+    },
+    {
+      "musicId": 34196,
+      "singer": "태사비애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34196.jpg",
+      "title": "010-7120-7984"
+    },
+    {
+      "musicId": 46320,
+      "singer": "이하이(Feat.바비)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46320.jpg",
+      "title": "안봐도비디오"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 18156,
+      "singer": "버블시스터즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18156.jpg",
+      "title": "아무도 모르게"
+    },
+    {
+      "musicId": 96212,
+      "singer": "넉살(Feat.서사무엘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96212.jpg",
+      "title": "악마들이춤추는댄스홀"
+    },
+    {
+      "musicId": 99820,
+      "singer": "10cm,Humbert",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99820.jpg",
+      "title": "언제나겨울"
+    },
+    {
+      "musicId": 13726,
+      "singer": "박화요비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13726.jpg",
+      "title": "12시5분"
+    },
+    {
+      "musicId": 95632,
+      "singer": "이기윤",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95632.jpg",
+      "title": "어느새내나이"
+    },
+    {
+      "musicId": 3177,
+      "singer": "김현철",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3177.jpg",
+      "title": "이상한남자"
+    },
+    {
+      "musicId": 98939,
+      "singer": "Ra.D(Feat.브라더수)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98939.jpg",
+      "title": "핑퐁(pingpong)"
+    },
+    {
+      "musicId": 62590,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62590.jpg",
+      "title": "매트리스"
+    },
+    {
+      "musicId": 24525,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24525.jpg",
+      "title": "그사람"
+    },
+    {
+      "musicId": 48870,
+      "singer": "하이라이트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48870.jpg",
+      "title": "시작"
+    },
+    {
+      "musicId": 34718,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34718.jpg",
+      "title": "벽지무늬"
+    },
+    {
+      "musicId": 19296,
+      "singer": "이현우 외 다수",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19296.jpg",
+      "title": "기적(서해안생명살리기프로젝트앨범)"
+    },
+    {
+      "musicId": 84361,
+      "singer": "영탁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84361.jpg",
+      "title": "톡톡톡"
+    },
+    {
+      "musicId": 81689,
+      "singer": "정동원",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81689.jpg",
+      "title": "My dream(구필수는없다OST)"
+    },
+    {
+      "musicId": 35410,
+      "singer": "서영은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35410.jpg",
+      "title": "꽃이진다(영화'후궁:제왕의첩'OST)"
+    },
+    {
+      "musicId": 93910,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/93910.jpg",
+      "title": "잊지마요(DON'T FORGET)"
+    },
+    {
+      "musicId": 82335,
+      "singer": "Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82335.jpg",
+      "title": "네가나를"
+    },
+    {
+      "musicId": 78563,
+      "singer": "환별",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78563.jpg",
+      "title": "별자리"
+    },
+    {
+      "musicId": 48715,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48715.jpg",
+      "title": "다좋아"
+    },
+    {
+      "musicId": 75456,
+      "singer": "린다G(Feat.T(윤미래))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75456.jpg",
+      "title": "LINDA"
+    },
+    {
+      "musicId": 13788,
+      "singer": "김정은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13788.jpg",
+      "title": "내게남은사랑을드릴께요(파리의연인OST)"
+    },
+    {
+      "musicId": 36374,
+      "singer": "주영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36374.jpg",
+      "title": "네게난"
+    },
+    {
+      "musicId": 76158,
+      "singer": "김세정",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76158.jpg",
+      "title": "재회(再會)(경이로운소문OST)"
+    },
+    {
+      "musicId": 33399,
+      "singer": "조성모",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33399.jpg",
+      "title": "Everyday Christmas"
+    },
+    {
+      "musicId": 48227,
+      "singer": "기리보이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48227.jpg",
+      "title": "술자리"
+    },
+    {
+      "musicId": 15991,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/15991.jpg",
+      "title": "환상"
+    },
+    {
+      "musicId": 18862,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18862.jpg",
+      "title": "혼자하는 약속"
+    },
+    {
+      "musicId": 22450,
+      "singer": "Jeff Bernat",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/22450.jpg",
+      "title": "Groovin'"
+    },
+    {
+      "musicId": 76494,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76494.jpg",
+      "title": "왜왜왜(Why Why Why)"
+    },
+    {
+      "musicId": 13435,
+      "singer": "정재형,린애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13435.jpg",
+      "title": "서로다른길"
+    },
+    {
+      "musicId": 37638,
+      "singer": "에스나",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/37638.jpg",
+      "title": "아랫입술물고(상속자들OST)"
+    },
+    {
+      "musicId": 19182,
+      "singer": "마리서사",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19182.jpg",
+      "title": "잊어야 한다 "
+    },
+    {
+      "musicId": 84307,
+      "singer": "ASH ISLAND(Feat.릴러말즈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84307.jpg",
+      "title": "Smoking Roses"
+    },
+    {
+      "musicId": 32699,
+      "singer": "뜨거운감자",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32699.jpg",
+      "title": "진취적인그녀"
+    },
+    {
+      "musicId": 36966,
+      "singer": "브라더수(Feat.스윙스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36966.jpg",
+      "title": "왜이러니"
+    },
+    {
+      "musicId": 24614,
+      "singer": "디보(Dbo)(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24614.jpg",
+      "title": "I Could Do Dead"
+    },
+    {
+      "musicId": 80714,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80714.jpg",
+      "title": "가진다는말은좀그렇지?"
+    },
+    {
+      "musicId": 82670,
+      "singer": "GOTCHA !",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82670.jpg",
+      "title": "오늘은꼭(어쩌다발견한하루OST)"
+    },
+    {
+      "musicId": 54906,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54906.jpg",
+      "title": "Not a girl"
+    },
+    {
+      "musicId": 84253,
+      "singer": "NewJeans",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84253.jpg",
+      "title": "Cool With You"
+    },
+    {
+      "musicId": 48422,
+      "singer": "광희,개코(Feat.오혁)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48422.jpg",
+      "title": "당신의밤"
+    },
+    {
+      "musicId": 48437,
+      "singer": "정준하,지코(Feat.김종완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48437.jpg",
+      "title": "지칠때면"
+    },
+    {
+      "musicId": 42520,
+      "singer": "eldon",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42520.jpg",
+      "title": "Monster"
+    },
+    {
+      "musicId": 13056,
+      "singer": "거미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13056.jpg",
+      "title": "가버려"
+    },
+    {
+      "musicId": 76575,
+      "singer": "호미들(Feat.UNEDUCATED KID,Paul Blanco)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76575.jpg",
+      "title": "사이렌 Remix"
+    },
+    {
+      "musicId": 49934,
+      "singer": "선우정아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49934.jpg",
+      "title": "구애"
+    },
+    {
+      "musicId": 88403,
+      "singer": "丁当",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/88403.jpg",
+      "title": "冷血动物"
+    },
+    {
+      "musicId": 97491,
+      "singer": "도끼(Feat.해쉬스완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97491.jpg",
+      "title": "I Don't Know"
+    },
+    {
+      "musicId": 48345,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48345.jpg",
+      "title": "내눈에만보여(도깨비OST)"
+    },
+    {
+      "musicId": 29043,
+      "singer": "그레이(Feat.자이언티,크루셜스타)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29043.jpg",
+      "title": "깜빡"
+    },
+    {
+      "musicId": 76685,
+      "singer": "다운(Feat.릴보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76685.jpg",
+      "title": "연남동"
+    },
+    {
+      "musicId": 66940,
+      "singer": "DICE & K9",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66940.jpg",
+      "title": "ITSUMO"
+    },
+    {
+      "musicId": 45917,
+      "singer": "수지(미스에이),백현(EXO)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45917.jpg",
+      "title": "Dream"
+    },
+    {
+      "musicId": 76753,
+      "singer": "ENHYPEN",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76753.jpg",
+      "title": "Not For Sale"
+    },
+    {
+      "musicId": 49495,
+      "singer": "IU(Feat.G-DRAGON)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49495.jpg",
+      "title": "팔레트"
+    },
+    {
+      "musicId": 82482,
+      "singer": "(여자)아이들",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82482.jpg",
+      "title": "DARK(X-file)"
+    },
+    {
+      "musicId": 48996,
+      "singer": "자이언티",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48996.jpg",
+      "title": "Comedian"
+    },
+    {
+      "musicId": 30099,
+      "singer": "빅뱅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30099.jpg",
+      "title": "착한사람"
+    },
+    {
+      "musicId": 83166,
+      "singer": "투모로우바이투게더",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83166.jpg",
+      "title": "이젠안녕(연애혁명 X 투모로우바이투게더)"
+    },
+    {
+      "musicId": 81222,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81222.jpg",
+      "title": "2022년 2월 22일"
+    },
+    {
+      "musicId": 83762,
+      "singer": "Way Ched(Feat.릴러말즈,빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83762.jpg",
+      "title": "뚝"
+    },
+    {
+      "musicId": 98640,
+      "singer": "자이언티(Feat.슬기(레드벨벳))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98640.jpg",
+      "title": "멋지게인사하는법"
+    },
+    {
+      "musicId": 77363,
+      "singer": "허각,2F(신용재,김원주)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77363.jpg",
+      "title": "비가내리기전에"
+    },
+    {
+      "musicId": 77505,
+      "singer": "D.O.(EXO)(Feat.원슈타인)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77505.jpg",
+      "title": "I'm Gonna Love You"
+    },
+    {
+      "musicId": 39790,
+      "singer": "니엘",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39790.jpg",
+      "title": "Only You"
+    },
+    {
+      "musicId": 24293,
+      "singer": "헤이즈(Feat.콜드)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24293.jpg",
+      "title": "DAUM"
+    },
+    {
+      "musicId": 78896,
+      "singer": "마틴스미스(Feat.정성하)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78896.jpg",
+      "title": "미쳤나봐"
+    },
+    {
+      "musicId": 14918,
+      "singer": "MC몽(Feat.옥주현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14918.jpg",
+      "title": "홈런"
+    },
+    {
+      "musicId": 10988,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10988.jpg",
+      "title": "와줘"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+},
+{
+  "_id": {
+    "$oid": "651f63c939f3ed7964da9d01"
+  },
+  "userId": 66,
+  "voiceWaveMatchingResponseDtoList": [
+    {
+      "musicId": 96391,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96391.jpg",
+      "title": "폰서트"
+    },
+    {
+      "musicId": 82830,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82830.jpg",
+      "title": "의류수거함"
+    },
+    {
+      "musicId": 53933,
+      "singer": "페노메코",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53933.jpg",
+      "title": "영화한편찍자"
+    },
+    {
+      "musicId": 24733,
+      "singer": "MELOH(Feat.보이비)(Prod.WOOGIE)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24733.jpg",
+      "title": "SMILE"
+    },
+    {
+      "musicId": 18457,
+      "singer": "바나나걸(Feat.한나)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18457.jpg",
+      "title": "콕"
+    },
+    {
+      "musicId": 12924,
+      "singer": "바이브",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/12924.jpg",
+      "title": "You're My Girl"
+    },
+    {
+      "musicId": 24747,
+      "singer": "백예린(Feat.루피)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24747.jpg",
+      "title": "Point"
+    },
+    {
+      "musicId": 98723,
+      "singer": "참깨와솜사탕",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98723.jpg",
+      "title": "Showtime"
+    },
+    {
+      "musicId": 98434,
+      "singer": "기리보이(Feat.크러쉬,최엘비)(Prod. By 코스믹보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98434.jpg",
+      "title": "평화"
+    },
+    {
+      "musicId": 76110,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76110.jpg",
+      "title": "Lovegame"
+    },
+    {
+      "musicId": 32530,
+      "singer": "제리(Feat.하주연)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32530.jpg",
+      "title": "사랑한다"
+    },
+    {
+      "musicId": 83064,
+      "singer": "부석순(세븐틴)(Feat.Peder Elias)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83064.jpg",
+      "title": "7시에들어줘"
+    },
+    {
+      "musicId": 97073,
+      "singer": "그리즐리",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97073.jpg",
+      "title": "달라"
+    },
+    {
+      "musicId": 46262,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46262.jpg",
+      "title": "봄이좋냐??"
+    },
+    {
+      "musicId": 14176,
+      "singer": "조항조",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14176.jpg",
+      "title": "흔들린사랑"
+    },
+    {
+      "musicId": 53683,
+      "singer": "NO:EL(장용준)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/53683.jpg",
+      "title": "망년회(2017)"
+    },
+    {
+      "musicId": 34567,
+      "singer": "타블로(Feat.이소라)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34567.jpg",
+      "title": "집"
+    },
+    {
+      "musicId": 96436,
+      "singer": "정진우(With 빌런)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96436.jpg",
+      "title": "집에있을게"
+    },
+    {
+      "musicId": 97993,
+      "singer": "빈첸(이병재)(With 하선호)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97993.jpg",
+      "title": "타는목마름으로"
+    },
+    {
+      "musicId": 82909,
+      "singer": "PATEKO,Jayci yucca,Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82909.jpg",
+      "title": "힘든거알아"
+    },
+    {
+      "musicId": 99972,
+      "singer": "이츠",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99972.jpg",
+      "title": "잠들래"
+    },
+    {
+      "musicId": 49107,
+      "singer": "동미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49107.jpg",
+      "title": "나얼마나"
+    },
+    {
+      "musicId": 46273,
+      "singer": "투빅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46273.jpg",
+      "title": "니꺼내꺼"
+    },
+    {
+      "musicId": 29579,
+      "singer": "SG워너비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29579.jpg",
+      "title": "웃다가울다가"
+    },
+    {
+      "musicId": 81517,
+      "singer": "임한별,박우진(AB6IX(에이비식스))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81517.jpg",
+      "title": "넌나어때"
+    },
+    {
+      "musicId": 76574,
+      "singer": "빅나티(서동현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76574.jpg",
+      "title": "잠깐만"
+    },
+    {
+      "musicId": 96481,
+      "singer": "정진우",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96481.jpg",
+      "title": "위성"
+    },
+    {
+      "musicId": 29696,
+      "singer": "치즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29696.jpg",
+      "title": "망고"
+    },
+    {
+      "musicId": 34196,
+      "singer": "태사비애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34196.jpg",
+      "title": "010-7120-7984"
+    },
+    {
+      "musicId": 46320,
+      "singer": "이하이(Feat.바비)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/46320.jpg",
+      "title": "안봐도비디오"
+    },
+    {
+      "musicId": 45820,
+      "singer": "자이언티(Feat.Verbal Jint)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45820.jpg",
+      "title": "Doop"
+    },
+    {
+      "musicId": 18156,
+      "singer": "버블시스터즈",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18156.jpg",
+      "title": "아무도 모르게"
+    },
+    {
+      "musicId": 96212,
+      "singer": "넉살(Feat.서사무엘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/96212.jpg",
+      "title": "악마들이춤추는댄스홀"
+    },
+    {
+      "musicId": 99820,
+      "singer": "10cm,Humbert",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/99820.jpg",
+      "title": "언제나겨울"
+    },
+    {
+      "musicId": 13726,
+      "singer": "박화요비",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13726.jpg",
+      "title": "12시5분"
+    },
+    {
+      "musicId": 95632,
+      "singer": "이기윤",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/95632.jpg",
+      "title": "어느새내나이"
+    },
+    {
+      "musicId": 3177,
+      "singer": "김현철",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/3177.jpg",
+      "title": "이상한남자"
+    },
+    {
+      "musicId": 98939,
+      "singer": "Ra.D(Feat.브라더수)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98939.jpg",
+      "title": "핑퐁(pingpong)"
+    },
+    {
+      "musicId": 62590,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/62590.jpg",
+      "title": "매트리스"
+    },
+    {
+      "musicId": 24525,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24525.jpg",
+      "title": "그사람"
+    },
+    {
+      "musicId": 48870,
+      "singer": "하이라이트",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48870.jpg",
+      "title": "시작"
+    },
+    {
+      "musicId": 34718,
+      "singer": "IU",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/34718.jpg",
+      "title": "벽지무늬"
+    },
+    {
+      "musicId": 19296,
+      "singer": "이현우 외 다수",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19296.jpg",
+      "title": "기적(서해안생명살리기프로젝트앨범)"
+    },
+    {
+      "musicId": 84361,
+      "singer": "영탁",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84361.jpg",
+      "title": "톡톡톡"
+    },
+    {
+      "musicId": 81689,
+      "singer": "정동원",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81689.jpg",
+      "title": "My dream(구필수는없다OST)"
+    },
+    {
+      "musicId": 35410,
+      "singer": "서영은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/35410.jpg",
+      "title": "꽃이진다(영화'후궁:제왕의첩'OST)"
+    },
+    {
+      "musicId": 93910,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/93910.jpg",
+      "title": "잊지마요(DON'T FORGET)"
+    },
+    {
+      "musicId": 82335,
+      "singer": "Kid Wine",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82335.jpg",
+      "title": "네가나를"
+    },
+    {
+      "musicId": 78563,
+      "singer": "환별",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78563.jpg",
+      "title": "별자리"
+    },
+    {
+      "musicId": 48715,
+      "singer": "어반자카파",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48715.jpg",
+      "title": "다좋아"
+    },
+    {
+      "musicId": 75456,
+      "singer": "린다G(Feat.T(윤미래))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/75456.jpg",
+      "title": "LINDA"
+    },
+    {
+      "musicId": 13788,
+      "singer": "김정은",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13788.jpg",
+      "title": "내게남은사랑을드릴께요(파리의연인OST)"
+    },
+    {
+      "musicId": 36374,
+      "singer": "주영",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36374.jpg",
+      "title": "네게난"
+    },
+    {
+      "musicId": 76158,
+      "singer": "김세정",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76158.jpg",
+      "title": "재회(再會)(경이로운소문OST)"
+    },
+    {
+      "musicId": 33399,
+      "singer": "조성모",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/33399.jpg",
+      "title": "Everyday Christmas"
+    },
+    {
+      "musicId": 48227,
+      "singer": "기리보이",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48227.jpg",
+      "title": "술자리"
+    },
+    {
+      "musicId": 15991,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/15991.jpg",
+      "title": "환상"
+    },
+    {
+      "musicId": 18862,
+      "singer": "Fly To The Sky",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/18862.jpg",
+      "title": "혼자하는 약속"
+    },
+    {
+      "musicId": 22450,
+      "singer": "Jeff Bernat",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/22450.jpg",
+      "title": "Groovin'"
+    },
+    {
+      "musicId": 76494,
+      "singer": "iKON(아이콘)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76494.jpg",
+      "title": "왜왜왜(Why Why Why)"
+    },
+    {
+      "musicId": 13435,
+      "singer": "정재형,린애",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13435.jpg",
+      "title": "서로다른길"
+    },
+    {
+      "musicId": 37638,
+      "singer": "에스나",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/37638.jpg",
+      "title": "아랫입술물고(상속자들OST)"
+    },
+    {
+      "musicId": 19182,
+      "singer": "마리서사",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/19182.jpg",
+      "title": "잊어야 한다 "
+    },
+    {
+      "musicId": 84307,
+      "singer": "ASH ISLAND(Feat.릴러말즈)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84307.jpg",
+      "title": "Smoking Roses"
+    },
+    {
+      "musicId": 32699,
+      "singer": "뜨거운감자",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/32699.jpg",
+      "title": "진취적인그녀"
+    },
+    {
+      "musicId": 36966,
+      "singer": "브라더수(Feat.스윙스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/36966.jpg",
+      "title": "왜이러니"
+    },
+    {
+      "musicId": 24614,
+      "singer": "디보(Dbo)(Feat.저스디스)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24614.jpg",
+      "title": "I Could Do Dead"
+    },
+    {
+      "musicId": 80714,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/80714.jpg",
+      "title": "가진다는말은좀그렇지?"
+    },
+    {
+      "musicId": 82670,
+      "singer": "GOTCHA !",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82670.jpg",
+      "title": "오늘은꼭(어쩌다발견한하루OST)"
+    },
+    {
+      "musicId": 54906,
+      "singer": "백예린",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/54906.jpg",
+      "title": "Not a girl"
+    },
+    {
+      "musicId": 84253,
+      "singer": "NewJeans",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/84253.jpg",
+      "title": "Cool With You"
+    },
+    {
+      "musicId": 48422,
+      "singer": "광희,개코(Feat.오혁)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48422.jpg",
+      "title": "당신의밤"
+    },
+    {
+      "musicId": 48437,
+      "singer": "정준하,지코(Feat.김종완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48437.jpg",
+      "title": "지칠때면"
+    },
+    {
+      "musicId": 42520,
+      "singer": "eldon",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/42520.jpg",
+      "title": "Monster"
+    },
+    {
+      "musicId": 13056,
+      "singer": "거미",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/13056.jpg",
+      "title": "가버려"
+    },
+    {
+      "musicId": 76575,
+      "singer": "호미들(Feat.UNEDUCATED KID,Paul Blanco)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76575.jpg",
+      "title": "사이렌 Remix"
+    },
+    {
+      "musicId": 49934,
+      "singer": "선우정아",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49934.jpg",
+      "title": "구애"
+    },
+    {
+      "musicId": 88403,
+      "singer": "丁当",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/88403.jpg",
+      "title": "冷血动物"
+    },
+    {
+      "musicId": 97491,
+      "singer": "도끼(Feat.해쉬스완)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/97491.jpg",
+      "title": "I Don't Know"
+    },
+    {
+      "musicId": 48345,
+      "singer": "10cm",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48345.jpg",
+      "title": "내눈에만보여(도깨비OST)"
+    },
+    {
+      "musicId": 29043,
+      "singer": "그레이(Feat.자이언티,크루셜스타)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/29043.jpg",
+      "title": "깜빡"
+    },
+    {
+      "musicId": 76685,
+      "singer": "다운(Feat.릴보이)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76685.jpg",
+      "title": "연남동"
+    },
+    {
+      "musicId": 66940,
+      "singer": "DICE & K9",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/66940.jpg",
+      "title": "ITSUMO"
+    },
+    {
+      "musicId": 45917,
+      "singer": "수지(미스에이),백현(EXO)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/45917.jpg",
+      "title": "Dream"
+    },
+    {
+      "musicId": 76753,
+      "singer": "ENHYPEN",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/76753.jpg",
+      "title": "Not For Sale"
+    },
+    {
+      "musicId": 49495,
+      "singer": "IU(Feat.G-DRAGON)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/49495.jpg",
+      "title": "팔레트"
+    },
+    {
+      "musicId": 82482,
+      "singer": "(여자)아이들",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/82482.jpg",
+      "title": "DARK(X-file)"
+    },
+    {
+      "musicId": 48996,
+      "singer": "자이언티",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/48996.jpg",
+      "title": "Comedian"
+    },
+    {
+      "musicId": 30099,
+      "singer": "빅뱅",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/30099.jpg",
+      "title": "착한사람"
+    },
+    {
+      "musicId": 83166,
+      "singer": "투모로우바이투게더",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83166.jpg",
+      "title": "이젠안녕(연애혁명 X 투모로우바이투게더)"
+    },
+    {
+      "musicId": 81222,
+      "singer": "장기하",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/81222.jpg",
+      "title": "2022년 2월 22일"
+    },
+    {
+      "musicId": 83762,
+      "singer": "Way Ched(Feat.릴러말즈,빅나티(서동현))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/83762.jpg",
+      "title": "뚝"
+    },
+    {
+      "musicId": 98640,
+      "singer": "자이언티(Feat.슬기(레드벨벳))",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/98640.jpg",
+      "title": "멋지게인사하는법"
+    },
+    {
+      "musicId": 77363,
+      "singer": "허각,2F(신용재,김원주)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77363.jpg",
+      "title": "비가내리기전에"
+    },
+    {
+      "musicId": 77505,
+      "singer": "D.O.(EXO)(Feat.원슈타인)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/77505.jpg",
+      "title": "I'm Gonna Love You"
+    },
+    {
+      "musicId": 39790,
+      "singer": "니엘",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/39790.jpg",
+      "title": "Only You"
+    },
+    {
+      "musicId": 24293,
+      "singer": "헤이즈(Feat.콜드)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/24293.jpg",
+      "title": "DAUM"
+    },
+    {
+      "musicId": 78896,
+      "singer": "마틴스미스(Feat.정성하)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/78896.jpg",
+      "title": "미쳤나봐"
+    },
+    {
+      "musicId": 14918,
+      "singer": "MC몽(Feat.옥주현)",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/14918.jpg",
+      "title": "홈런"
+    },
+    {
+      "musicId": 10988,
+      "singer": "세븐",
+      "songImg": "https://gogosing.s3.ap-northeast-2.amazonaws.com/albums/songimg/10988.jpg",
+      "title": "와줘"
+    }
+  ],
+  "_class": "com.ssafy.gogosing.domain.analyze.VoiceWaveMatching"
+}]
