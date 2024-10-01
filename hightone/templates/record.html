@@ -6,8 +6,11 @@
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: auto; width: 100%;">
     <!-- 녹음 시작 버튼과 분석 결과 버튼을 감싸는 div -->
     <div style="display: flex; align-items: center; justify-content: center;">
-        <button id="startRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
-            녹음 시작
+        <button id="startLowestPitch" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
+            최저음 녹음 시작
+        </button>
+        <button id="startHighestPitch" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease; display: none;">
+            최고음 녹음 시작
         </button>
         <!-- 동적으로 생성될 '분석 결과' 버튼 -->
         <button id="showAnalysis" style="padding: 15px 30px; background-color: #FF5722; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease; margin-left: 10px; display: none;">
@@ -39,11 +42,11 @@
         background-color: #f0f4f8;
     }
 
-    #startRecording:hover {
+    #startLowestPitch:hover, #startHighestPitch:hover {
         background-color: #45a049;
     }
 
-    #startRecording:disabled {
+    #startLowestPitch:disabled, #startHighestPitch:disabled {
         background-color: #d3d3d3;
         cursor: not-allowed;
     }
@@ -104,32 +107,48 @@
     let audioContext;
     let analyser;
     let dataArray;
+    let recordingStep = 0;  // 녹음 단계를 추적
+
     const canvas = document.getElementById('frequencyCanvas');
     const ctx = canvas.getContext('2d');
+    const startLowestPitchButton = document.getElementById('startLowestPitch');
+    const startHighestPitchButton = document.getElementById('startHighestPitch');
+    const loadingMessage = document.getElementById('loading');
+    const analyzingMessage = document.getElementById('analyzing');
+    const analysisCompleteMessage = document.getElementById('analysisComplete');
 
-    document.getElementById('startRecording').addEventListener('click', async function() {
-        // 이전 결과 초기화
-        document.getElementById('result').textContent = '';
-        document.getElementById('analysisContainer').style.display = 'none'; // 분석 결과 컨테이너 숨기기
-        document.getElementById('analysisComplete').style.display = 'none'; // 완료 메시지 숨기기
+    const resultContainer = document.getElementById('result'); // 분석 결과를 표시할 div
 
-        // 버튼 텍스트 변경 (버튼 위치는 그대로 유지)
-        this.textContent = '녹음 중...';
-        this.disabled = true;
+    // 최저음 녹음 시작
+    startLowestPitchButton.addEventListener('click', async function() {
+        recordingStep = 1; // 최저음 녹음 단계
+        startRecording('lowest_pitch.wav', startLowestPitchButton, startHighestPitchButton);
+    });
+
+    // 최고음 녹음 시작
+    startHighestPitchButton.addEventListener('click', async function() {
+        recordingStep = 2; // 최고음 녹음 단계
+        startRecording('highest_pitch.wav', startHighestPitchButton, null, true);
+    });
+
+    async function startRecording(filename, currentButton, nextButton, isFinal = false) {
+    // 버튼 비활성화 및 텍스트 업데이트
+        currentButton.textContent = '녹음 중...';
+        currentButton.disabled = true;
 
         // 녹음 중 메시지 표시
-        document.getElementById('loading').style.display = 'block';
-        document.getElementById('frequencyCanvas').style.display = 'block'; // 캔버스 보이기
+        loadingMessage.style.display = 'block';
+        canvas.style.display = 'block';
 
         // 마이크 권한 요청 및 스트림 가져오기
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         audioContext = new (window.AudioContext || window.webkitAudioContext)();
         const source = audioContext.createMediaStreamSource(stream);
-        
+
         // AnalyserNode 생성
         analyser = audioContext.createAnalyser();
         source.connect(analyser);
-        analyser.fftSize = 2048;  // FFT 크기 설정
+        analyser.fftSize = 2048;
         dataArray = new Uint8Array(analyser.frequencyBinCount);
 
         // 오디오 조각 수집
@@ -138,71 +157,61 @@
             audioChunks.push(event.data);
         };
 
-        // 녹음 종료 후 처리
         mediaRecorder.onstop = async () => {
-            // 녹음 중 메시지 숨기기
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('frequencyCanvas').style.display = 'none'; // 캔버스 숨기기
-            // 분석 중 메시지 표시
-            document.getElementById('analyzing').style.display = 'block';
+            loadingMessage.style.display = 'none'; // 녹음 중 메시지 숨기기
+            canvas.style.display = 'none';
 
             // Blob 생성 및 서버로 전송
             const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
             const formData = new FormData();
             formData.append('audio', audioBlob);
+            formData.append('filename', filename);
 
-            // 서버에 데이터 전송
-            const response = await fetch('/process_record', {
-                method: 'POST',
-                body: formData
-            });
-            const data = await response.json();
+            try {
+                await fetch('/upload_recording', {
+                    method: 'POST',
+                    body: formData
+                });
 
-            // 분석 중 메시지 숨기기
-            document.getElementById('analyzing').style.display = 'none';
+                if (isFinal) {
+                    analyzingMessage.style.display = 'block'; // 분석 중 메시지 표시
 
-            // 분석 완료 메시지 표시
-            document.getElementById('analysisComplete').style.display = 'block';
+                    // 서버에 분석 요청
+                    const response = await fetch('/process_analysis');
+                    const data = await response.json();
 
-            // 결과 표시
-            document.getElementById('result').textContent = data.result;
+                    analyzingMessage.style.display = 'none';
+                    analysisCompleteMessage.style.display = 'block';
 
-            // 리소스 해제
+                    // 분석 결과를 화면에 출력
+                    displayResults(data.result);
+
+                    // 결과 컨테이너 보이기
+                    document.getElementById('analysisContainer').style.display = 'block';
+                } else if (nextButton) {
+                    nextButton.style.display = 'inline-block'; // 다음 버튼 표시
+                }
+            } catch (error) {
+                console.error('오류 발생:', error);
+            }
+
             mediaRecorder = null;
             audioChunks = [];
             audioContext.close();
             audioContext = null;
 
-            // 버튼 텍스트를 원래대로 복원
-            document.getElementById('startRecording').textContent = '녹음 시작';
-            document.getElementById('startRecording').disabled = false;
-
-            // '분석 결과' 버튼 표시
-            document.getElementById('showAnalysis').style.display = 'inline-block';
+            currentButton.textContent = currentButton === startLowestPitchButton ? '최저음 녹음 시작' : '최고음 녹음 시작';
+            currentButton.disabled = false;
         };
 
-        // 녹음 시작
         mediaRecorder.start();
-
-        // 주파수 분석 함수 호출
-        analyzeFrequency();
+        analyzeFrequency(); // 주파수 분석 시작
 
         // 5초 후 녹음 종료
         setTimeout(() => {
             mediaRecorder.stop();
         }, 5000);
-    });
-
-    // 분석 결과 버튼 클릭 이벤트
-    document.getElementById('showAnalysis').addEventListener('click', async function() {
-        // 서버에서 분석 결과 가져오기
-        const response = await fetch('/get_analysis_result');
-        const resultText = await response.text();
-
-        // 분석 결과 표시
-        document.getElementById('result').textContent = resultText;
-        document.getElementById('analysisContainer').style.display = 'block'; // 컨테이너 보이기
-    });
+    }
 
     function analyzeFrequency() {
         requestAnimationFrame(analyzeFrequency);
@@ -217,10 +226,26 @@
         let x = 0;
 
         for (let i = 0; i < dataArray.length; i++) {
-            barHeight = dataArray[i] / 2; // 스케일 조정
-            ctx.fillStyle = 'rgb(' + (barHeight + 100) + ',50,50)'; // 색상 조정
+            barHeight = dataArray[i] / 2;
+            ctx.fillStyle = 'rgb(' + (barHeight + 100) + ',50,50)';
             ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
             x += barWidth + 1;
+        }
+    }
+
+    function displayResults(results) {
+    // 결과를 화면에 출력하는 함수
+        const resultContainer = document.getElementById('result');
+        resultContainer.innerHTML = ''; // 기존 결과 초기화
+
+        if (results.length > 0) {
+            results.forEach(song => {
+                const songElement = document.createElement('p');
+                songElement.textContent = `노래: ${song.title}, 가수: ${song.singer}, 유사도: ${song.similarity.toFixed(4)}`;
+                resultContainer.appendChild(songElement);
+            });
+        } else {
+            resultContainer.textContent = '유사한 노래를 찾을 수 없습니다.';
         }
     }
 </script>
