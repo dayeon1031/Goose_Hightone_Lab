@@ -78,6 +78,7 @@
 
         // 분석 버튼 활성화 확인
         checkAnalyzeButton();
+        document.getElementById('statusMessage').textContent = "이제 최고음을 녹음해주세요!";
     });
 
     // 최고음 녹음 버튼 클릭
@@ -130,6 +131,7 @@
         });
         const resultAnalysis = await responseAnalysis.json();
 
+
         // 분석 완료 후 추천 곡 리스트 표시
         document.getElementById('songList').innerHTML = "<h3>추천 곡 리스트:</h3><ul>";
         resultAnalysis.songs.forEach(song => {
@@ -138,6 +140,7 @@
             document.getElementById('songList').appendChild(listItem);
         });
         document.getElementById('songList').innerHTML += "</ul>";
+
     });
 </script>
 {% endblock %}
