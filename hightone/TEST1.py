@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify,session
 import sounddevice as sd
 import numpy as np
 import librosa
@@ -11,6 +11,9 @@ import json
 import os
 
 app = Flask(__name__)
+
+# 세션 암호화를 위한 SECRET_KEY 설정 (이 값은 무작위 문자열로 설정하는 것이 좋습니다)
+app.config['SECRET_KEY'] = 'Hello192!'
 
 # MySQL 연결 설정
 connection = pymysql.connect(
@@ -29,17 +32,45 @@ duration_high = 5  # 최고음을 녹음할 시간 (초)
 LOW_PITCH_FILE = "lowest_pitch.wav"
 HIGH_PITCH_FILE = "highest_pitch.wav"
 
-# 곡 리스트 초기화
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    song_list = []
-    
-    # URL에서 song_list 데이터를 받아서 처리
-    song_list_param = request.args.get('song_list')
-    if song_list_param:
-        song_list = json.loads(song_list_param)
+# 서버 시작 시 처음 실행 여부를 기록할 플래그
+first_run = True
 
-    return render_template('index.html', song_list=song_list)
+# 프로그램 처음 시작 시 analysis_result.txt 파일 삭제
+def remove_analysis_file():
+    analysis_file = "analysis_result.txt"
+    if os.path.exists(analysis_file):
+        os.remove(analysis_file)
+        print(f"{analysis_file} 파일을 삭제했습니다.")
+    else:
+        print(f"{analysis_file} 파일이 없습니다.")
+
+# 서버가 처음 시작될 때만 실행되는 로직
+if first_run:
+    remove_analysis_file()  # 프로그램 처음 실행 시에만 파일 삭제
+    first_run = False  # 플래그를 False로 설정하여 이후에는 파일을 삭제하지 않음
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/get_songs', methods=['GET'])
+def get_songs():
+    song_list = []
+
+    # 파일에서 추천 곡 리스트를 불러오기
+    analysis_file = "analysis_result.txt"
+    try:
+        if os.path.exists(analysis_file):
+            with open(analysis_file, 'r', encoding='utf-8') as file:
+                lines = file.readlines()
+                song_list = [line.strip() for line in lines if line.strip()]
+        else:
+            print(f"{analysis_file} 파일이 존재하지 않습니다.")
+    except FileNotFoundError:
+        print("파일을 찾을 수 없습니다.")
+    
+    # JSON 형태로 추천곡 리스트를 반환
+    return jsonify({'songs': song_list})
 
 #record 페이지
 @app.route('/record')
@@ -176,6 +207,11 @@ def analyze():
     df_db, feature_columns = fetch_database_data()
 
     top_5_songs = find_similar_songs(user_mean_features, df_db, feature_columns)
+
+        # 추천된 곡 리스트를 파일에 저장
+    with open('analysis_result.txt', 'w', encoding='utf-8') as file:
+        for song in top_5_songs:
+            file.write(f"{song['singer']} - {song['title']} \n")  
 
     return jsonify({'songs': top_5_songs})
     
