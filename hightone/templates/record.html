@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/card.css') }}">
 <h1 style="margin-top: 100px; text-align: center; font-family: 'Arial', sans-serif; color: #4CAF50;">녹음 페이지</h1>
 
 <!-- 버튼과 메시지 컨테이너 -->
@@ -43,104 +44,122 @@
 </div>
 
 <!-- 분석 결과 표시 영역 -->
-<div id="songList" style="margin-top: 30px; margin-bottom: 50px; font-family: 'Arial', sans-serif; font-size: 18px; text-align: center;"></div>
+<div id="songList" style="margin-top: 30px; margin-bottom: 50px; font-family: 'Arial', sans-serif; font-size: 18px; text-align: center;">
+    <h3 style="text-align: center; margin-bottom: 30px;">추천 곡 리스트</h3>
+    <div style = "display: flex; flex-wrap: nowrap; justify-content: center; gap: 20px;  max-width: 1200px; margin: 0 auto; padding: 20px; overflow-x: auto;", id="songCards">
+        <!-- 여기에 카드가 추가될 것입니다. -->
+    </div>
+</div>
 
 <script>
-    let lowRecorded = false;
-    let highRecorded = false;
+    document.addEventListener('DOMContentLoaded', function() {
+        let lowRecorded = false;
+        let highRecorded = false;
 
-    // 최저음 녹음 버튼 클릭
-    document.getElementById('startLowRecording').addEventListener('click', async function() {
-        // 버튼 비활성화
-        document.getElementById('startLowRecording').disabled = true;
-        document.getElementById('startHighRecording').disabled = true;
+        // 최저음 녹음 버튼 클릭
+        document.getElementById('startLowRecording').addEventListener('click', async function() {
+            // 버튼 비활성화
+            document.getElementById('startLowRecording').disabled = true;
+            document.getElementById('startHighRecording').disabled = true;
 
-        // 최저음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
-        document.getElementById('statusMessage').innerHTML = "최저음을 불러주세요: 장덕철-그날처럼 한 소절 (참 많은 시간이 흘러가고 넌 어떻게 사는지 참 궁금해)";
-        await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
-        document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
+            // 최저음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
+            document.getElementById('statusMessage').innerHTML = "최저음을 불러주세요: 장덕철-그날처럼 한 소절 (참 많은 시간이 흘러가고 넌 어떻게 사는지 참 궁금해)";
+            await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
+            document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
 
-        // 서버로 최저음 녹음 요청 보내기
-        const responseLow = await fetch('/process_record', {
-            method: 'POST',
-            body: JSON.stringify({ pitch: 'low' }),
-            headers: {
-                'Content-Type': 'application/json'
-            }
+            // 서버로 최저음 녹음 요청 보내기
+            const responseLow = await fetch('/process_record', {
+                method: 'POST',
+                body: JSON.stringify({ pitch: 'low' }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const resultLow = await responseLow.json();
+            // 녹음 완료 상태 표시
+            document.getElementById('lowMessageContainer').textContent = resultLow.message;
+            lowRecorded = true;
+
+            // 최고음 녹음 버튼 활성화
+            document.getElementById('startHighRecording').disabled = false;
+
+            // 분석 버튼 활성화 확인
+            checkAnalyzeButton();
+            document.getElementById('statusMessage').textContent = "이제 최고음을 녹음해주세요!";
         });
-        const resultLow = await responseLow.json();
-        // 녹음 완료 상태 표시
-        document.getElementById('lowMessageContainer').textContent = resultLow.message;
-        lowRecorded = true;
 
-        // 최고음 녹음 버튼 활성화
-        document.getElementById('startHighRecording').disabled = false;
+        // 최고음 녹음 버튼 클릭
+        document.getElementById('startHighRecording').addEventListener('click', async function() {
+            // 버튼 비활성화
+            document.getElementById('startLowRecording').disabled = true;
+            document.getElementById('startHighRecording').disabled = true;
 
-        // 분석 버튼 활성화 확인
-        checkAnalyzeButton();
-        document.getElementById('statusMessage').textContent = "이제 최고음을 녹음해주세요!";
-    });
+            // 최고음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
+            document.getElementById('statusMessage').innerHTML = "최고음을 불러주세요: 아이유-너랑나 한 소절 (너랑 나랑은 조금 남았지 몇날 몇실진 모르겠지만)";
+            await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
+            document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
 
-    // 최고음 녹음 버튼 클릭
-    document.getElementById('startHighRecording').addEventListener('click', async function() {
-        // 버튼 비활성화
-        document.getElementById('startLowRecording').disabled = true;
-        document.getElementById('startHighRecording').disabled = true;
+            // 서버로 최고음 녹음 요청 보내기
+            const responseHigh = await fetch('/process_record', {
+                method: 'POST',
+                body: JSON.stringify({ pitch: 'high' }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const resultHigh = await responseHigh.json();
+            // 녹음 완료 상태 표시
+            document.getElementById('highMessageContainer').textContent = resultHigh.message;
+            highRecorded = true;
 
-        // 최고음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
-        document.getElementById('statusMessage').innerHTML = "최고음을 불러주세요: 아이유-너랑나 한 소절 (너랑 나랑은 조금 남았지 몇날 몇실진 모르겠지만)";
-        await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
-        document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
-
-        // 서버로 최고음 녹음 요청 보내기
-        const responseHigh = await fetch('/process_record', {
-            method: 'POST',
-            body: JSON.stringify({ pitch: 'high' }),
-            headers: {
-                'Content-Type': 'application/json'
-            }
+            // 분석 버튼 활성화 확인
+            checkAnalyzeButton();
+            document.getElementById('statusMessage').textContent = "녹음이 완료되었습니다. 결과를 확인해보세요!";
         });
-        const resultHigh = await responseHigh.json();
-        // 녹음 완료 상태 표시
-        document.getElementById('highMessageContainer').textContent = resultHigh.message;
-        highRecorded = true;
 
-        // 분석 버튼 활성화 확인
-        checkAnalyzeButton();
-        document.getElementById('statusMessage').textContent = "녹음이 완료되었습니다. 결과를 확인해보세요!";
-    });
-
-    // 분석 버튼 활성화 확인 함수
-    function checkAnalyzeButton() {
-        if (lowRecorded && highRecorded) {
-            document.getElementById('analyzeButtonContainer').style.display = 'block';
+        // 분석 버튼 활성화 확인 함수
+        function checkAnalyzeButton() {
+            if (lowRecorded && highRecorded) {
+                document.getElementById('analyzeButtonContainer').style.display = 'block';
+            }
         }
-    }
 
-    // 분석 시작 버튼 클릭
-    document.getElementById('analyzeButton').addEventListener('click', async function() {
-        // 분석 시작 메시지 출력
-        document.getElementById('songList').textContent = "분석 중입니다...";
+        // 분석 시작 버튼 클릭
+        const analyzeButton = document.getElementById('analyzeButton');
+        if (analyzeButton) {
+            analyzeButton.addEventListener('click', async function() {
+                document.getElementById('statusMessage').textContent = "분석 중입니다..."; // 분석 중 메시지
 
-        // 서버로 분석 요청 보내기
-        const responseAnalysis = await fetch('/analyze', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
-        const resultAnalysis = await responseAnalysis.json();
+                const responseAnalysis = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const resultAnalysis = await responseAnalysis.json();
 
+                document.getElementById('songCards').innerHTML = ''; // 카드 초기화
 
-        // 분석 완료 후 추천 곡 리스트 표시
-        document.getElementById('songList').innerHTML = "<h3>추천 곡 리스트:</h3><ul>";
-        resultAnalysis.songs.forEach(song => {
-            const listItem = document.createElement('li');
-            listItem.textContent = `${song.singer} - ${song.title} (유사도: ${song.similarity.toFixed(6)})`;
-            document.getElementById('songList').appendChild(listItem);
-        });
-        document.getElementById('songList').innerHTML += "</ul>";
+                resultAnalysis.songs.forEach((song, index) => {
+                    const similarityPercentage = (song.similarity * 100).toFixed(1);
+                    const cardItem = `
+                        <div class="card">
+                            <h4>${index + 1}위</h4>
+                            <p class="song-title"><strong>가수:</strong> ${song.singer}</p>
+                            <p class="song-similarity"><strong>노래 제목:</strong> ${song.title}</p>
+                            <p class="song-singer"><strong>유사도:</strong> ${similarityPercentage}%</p>
+                        </div>
+                    `;
+                    document.getElementById('songCards').innerHTML += cardItem; // 카드 추가
+                });
 
+                document.getElementById('statusMessage').textContent = ""; // 분석 완료 후 메시지 제거
+                document.getElementById('songList').style.display = 'block'; // 분석 후 곡 리스트 표시
+            });
+        } else {
+            console.error('analyzeButton 요소를 찾을 수 없습니다.');
+        }
     });
 </script>
+
 {% endblock %}
