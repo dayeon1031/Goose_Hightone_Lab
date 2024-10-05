@@ -1,0 +1,46 @@
+/* 카드 스타일 */
+.card {
+    border: 1px solid #ccc;           /* 테두리 색상 */
+    border-radius: 8px;               /* 모서리 둥글기 */
+    padding: 15px;                    /* 내부 여백 */
+    width: 250px;                     /* 카드 너비 */
+    height: 300px;                    /* 카드 높이 고정 (높이 맞추기 위함) */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    text-align: center;               /* 텍스트 정렬 */
+    transition: transform 0.2s;       /* 변환 효과 */
+    flex: 0 0 18%;                    /* 카드의 너비를 조정 */
+    background-color: #ffffff;
+}
+
+/* 카드 호버 효과 */
+.card:hover {
+    transform: scale(1.05);           /* 카드 크기 확대 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 그림자 확대 */
+}
+
+/* 제목 스타일 */
+.card h4 {
+    margin: 0;                        /* 마진 제거 */
+    font-weight: bold;                /* 글자 두께 */
+}
+
+/* 카드 내 텍스트 스타일 */
+.card p {
+    margin: 5px 0;                   /* 마진 설정 */
+}
+
+/* 노래 제목 스타일 */
+.song-title {
+    font-weight: bold;                /* 글자 두께 */
+    font-size: 1.2em;                 /* 글자 크기 */
+}
+
+/* 유사도 스타일 */
+.song-similarity {
+    color: #FF5722;                   /* 유사도 텍스트 색상 */
+}
+
+/* 가수 이름 스타일 */
+.song-singer {
+    color: #4CAF50;                   /* 가수 텍스트 색상 */
+}
