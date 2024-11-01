@@ -1,4 +1,13 @@
 /* 전체 레이아웃 */
+.about-background {
+    background-image: url('../vinyl_record3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; /* 필요한 경우 패딩 추가 */
+    min-height: 100vh; /* 화면 전체를 덮도록 설정 */
+}
+
 .container.flex-center {
     display: flex;
     justify-content: center;
@@ -9,26 +18,27 @@
 
 /* 각 컨테이너 (공통된 스타일 적용) */
 .content-box {
-    width: 300px;
-    height: 400px;
-    background-color: #f0f0f0;
+    width: 400px;
+    height: 500px;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
     box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
-    border: 6px solid #e83cb2; 
+    /*border: 6px solid #e83cb2; */
+    background-color: rgba(144, 195, 146, 0.3);
 }
 
 /* 상단 영역 */
 .content-box .header {
     flex: 2;
-    background-color: #000;
+    background-color: rgba(144, 195, 146, 0.3);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 35px 35px 0 0;
     box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
 }
 
 /* 이미지 영역 */
@@ -38,15 +48,23 @@
 }
 
 .content-box .image-container img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 210px;
     object-fit: cover;
+    display: block;
+    margin: auto;
     border-radius: 0;
 }
 
 /* 하단 텍스트 설명 영역 */
 .content-box .description {
+    color: white;
     flex: 4;
-    padding: 20px;
+    padding: 25px;
     text-align: left;
+    font-size: 20px;
+}
+
+.content-box .description p {
+    line-height: 1.6; /* 줄간격을 1.6배로 설정 */
 }
