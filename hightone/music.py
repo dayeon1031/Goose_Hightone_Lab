@@ -8,7 +8,7 @@ import pymysql
 from scipy.spatial.distance import euclidean
 import json
 from sklearn.preprocessing import MinMaxScaler
-
+import os
 # MySQL 연결 설정
 connection = pymysql.connect(
     host='localhost',  # MySQL 서버 주소
@@ -21,6 +21,7 @@ connection = pymysql.connect(
 fs = 44100  # 샘플링 주파수 (Hz)
 duration_low = 10  # 최저음을 녹음할 시간 (초)
 duration_high = 10  # 최고음을 녹음할 시간 (초)
+save_directory = r"C:\Users\USER\Desktop\jakpum3-2"
 
 def handle_missing_values(df):
     df = df.fillna(0)  # 결측치(NaN)를 0으로 대체
@@ -28,14 +29,19 @@ def handle_missing_values(df):
     return df
 
 def record_audio(duration, filename):
+    file_path = os.path.join(save_directory, filename)
     print(f"녹음 시작 ({duration}초)")
     audio = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='float64')
     sd.wait()  # 녹음이 끝날 때까지 대기
-    wavfile.write(filename, fs, audio)  # 녹음한 데이터를 .wav 파일로 저장
-    print(f"녹음 완료: {filename}")
+    wavfile.write(file_path, fs, audio)  # 녹음한 데이터를 .wav 파일로 저장
+    print(f"녹음 완료: {file_path}")
+
 def analyze_audio(file):
     print(f"분석 중: {file}")
     y, sr = librosa.load(file)
+    start_sample = sr * 1  # 1초에 해당하는 샘플 수
+    end_sample = len(y) - sr * 1  # 마지막 1초를 제외한 샘플 수
+    y = y[start_sample:end_sample]  # 앞뒤 1초를 제외한 샘플 선택
 
     # 특성 데이터 추출
     df = pd.DataFrame()
@@ -78,7 +84,8 @@ def analyze_audio(file):
 
     # 최대 피치 추출 (추가된 부분)
     pitches, magnitudes = librosa.core.piptrack(y=y, sr=sr)
-    max_pitch = pitches.max()
+    pitches = pitches[(pitches > 80) & (pitches < 1100)]  # 사람 목소리의 일반적인 피치 범위로 제한
+    max_pitch = pitches.max() if pitches.size > 0 else 0  # 유효한 피치 값이 없으면 0으로 설정
     df.loc[0, 'max_pitch'] = max_pitch
 
     return df
