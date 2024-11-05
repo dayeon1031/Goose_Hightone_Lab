@@ -1,15 +1,27 @@
 /* 카드 스타일 */
+.record-background {
+    background-image: url('../note.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; /* 필요한 경우 패딩 추가 */
+    min-height: 100vh; /* 화면 전체를 덮도록 설정 */
+}
+
 .card {
     border: 1px solid #ccc;           /* 테두리 색상 */
     border-radius: 8px;               /* 모서리 둥글기 */
     padding: 15px;                    /* 내부 여백 */
-    width: 250px;                     /* 카드 너비 */
     height: 300px;                    /* 카드 높이 고정 (높이 맞추기 위함) */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
     text-align: center;               /* 텍스트 정렬 */
     transition: transform 0.2s;       /* 변환 효과 */
-    flex: 0 0 18%;                    /* 카드의 너비를 조정 */
+    flex: 1 1 calc(18% - 20px);                    /* 카드의 너비를 조정 */
+    margin: 10px;                     /* 카드 간 여백 */
+    min-width: 200px;                 /* 카드 최소 너비 */
     background-color: #ffffff;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 /* 카드 호버 효과 */
@@ -18,10 +30,24 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 그림자 확대 */
 }
 
+.card::-webkit-scrollbar{
+    border-radius: 8px;
+    height: 80%;
+}
+
+/* 스크롤바 핸들 스타일 */
+.card::-webkit-scrollbar-thumb {
+    background: #adadad; /* 핸들 색상 */
+    border-radius: 8px;
+}
+
 /* 제목 스타일 */
 .card h4 {
     margin: 0;                        /* 마진 제거 */
     font-weight: bold;                /* 글자 두께 */
+    border-bottom: 2px solid #ccc;    /* 밑줄 추가 */
+    padding-bottom: 8px;              /* 밑줄과 텍스트 사이 간격 */
+    margin-bottom: 12px;                /* 글자 두께 */
 }
 
 /* 카드 내 텍스트 스타일 */
@@ -30,17 +56,18 @@
 }
 
 /* 노래 제목 스타일 */
-.song-title {
+.song-singer {
     font-weight: bold;                /* 글자 두께 */
     font-size: 1.2em;                 /* 글자 크기 */
 }
 
 /* 유사도 스타일 */
-.song-similarity {
+.song-title {
     color: #FF5722;                   /* 유사도 텍스트 색상 */
 }
 
 /* 가수 이름 스타일 */
-.song-singer {
-    color: #4CAF50;                   /* 가수 텍스트 색상 */
+.song-similarity {
+    color: #4CAF50;
+    font-size: 15px;                   /* 가수 텍스트 색상 */
 }
