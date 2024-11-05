@@ -2,9 +2,67 @@
 
 {% block title %}HELP | HIGH-TONE Lab{% endblock %}
 
+{% block css %}
+    <!-- Google Fonts 링크 추가 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/help.css') }}">
+{% endblock %}
+
 {% block content %}
-    <div class="container">
-        <h1>Help</h1>
-        <p>HIGH-TONE Lab을 사용하는 방법은 다음과 같습니다...</p>
+<div class="help-background">
+    <!-- 중앙에 큰 타이틀 help -->
+    <div style="text-align: center; margin-top: 50px;">
+        <h1 style="font-size: 48px; font-family: 'Noto Sans', sans-serif; text-decoration: underline; color: white;">
+            Help
+        </h1>
+        <p style="font-size: 20px; font-family: 'Noto Sans', sans-serif; margin-top: 30px; color: white;">
+            당신의 노래를 찾고 싶으시다구요?
+        </p>
     </div>
+
+    <!-- 각 이미지와 설명을 포함하는 섹션 컨테이너 -->
+    <div class="help-section-container" style="margin-top: 50px; margin-bottom: 100px;">
+        <div class="help-section-container">
+            <!-- 첫 번째 섹션 -->
+            <div class="help-section">
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='home.png') }}" alt="Image 1">
+                </div>
+                <div class="description">
+                    <p>홈페이지 화면 중앙 CD를 누르면 녹음화면으로 넘어갑니다.</p>
+                </div>
+            </div>
+    
+            <!-- 두 번째 섹션 -->
+            <div class="help-section">
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='record_page.png') }}" alt="Image 2">
+                </div>
+                <div class="description">
+                    <p>최저음 녹음 버튼을 누른 후 녹음이 끝나면 최고음 녹음 버튼을 클릭하세요.</p>
+                </div>
+            </div>
+    
+            <!-- 세 번째 섹션 -->
+            <div class="help-section">
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='analysis.png') }}" alt="Image 3">
+                </div>
+                <div class="description">
+                    <p>녹음이 끝났다면 분석 버튼을 클릭하세요.</p>
+                </div>
+            </div>
+
+            <!-- 네 번째 섹션 -->
+            <div class="help-section">
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='analysis_result.png') }}" alt="Image 4">
+                </div>
+                <div class="description">
+                    <p>여러분의 음역대에 맞는 곡을 확인하고 높은 음에 도전해보세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
