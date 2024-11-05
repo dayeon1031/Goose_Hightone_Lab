@@ -1,53 +1,63 @@
 {% extends "base.html" %}
 
+{% block title %}RECORD | HIGH-TONE Lab{% endblock %}
+
 {% block content %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/card.css') }}">
-<h1 style="margin-top: 100px; text-align: center; font-family: 'Arial', sans-serif; color: #4CAF50;">녹음 페이지</h1>
 
-<!-- 버튼과 메시지 컨테이너 -->
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 50px; gap: 20px;">
-    <!-- 최저음 녹음 버튼 -->
-    <div style="text-align: center;">
-        <button id="startLowRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
-            최저음 녹음 시작
+<div class="record-background">
+    <h1 style="margin-top: 100px; text-align: center; font-family: 'Arial', sans-serif; color: #4CAF50;">녹음 페이지</h1>
+    <!-- 버튼과 메시지 컨테이너 -->
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px; gap: 20px;">
+        <!-- 최저음 녹음 버튼 -->
+        <div style="text-align: center;">
+            <button id="startLowRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
+                최저음 녹음 시작
+            </button>
+        </div>
+
+        <!-- 최고음 녹음 버튼 -->
+        <div style="text-align: center;">
+            <button id="startHighRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;" disabled>
+                최고음 녹음 시작
+            </button>
+        </div>
+    </div>
+
+    <!-- 메세지 컨테이너 1: 좌우로 배치되는 컨테이너 -->
+    <div id="messageContainer1" style="display: flex; justify-content: center; margin-top: 20px;">
+        <div id="lowMessageContainer" style="text-align: center; margin-right: 15px; padding: 10px 30px; border-radius: 8px; color: #ff9f22 ; min-width: 200px;">
+            <!-- 최저음 녹음 완료 메시지가 여기에 표시됩니다 -->
+        </div>
+        <div id="highMessageContainer" style="text-align: center; margin-left: 15x; padding: 10px 30px; border-radius: 8px; color: #5058f5; min-width: 200px;">
+            <!-- 최고음 녹음 완료 메시지가 여기에 표시됩니다 -->
+        </div>
+    </div>
+
+
+
+    <!-- 메시지 컨테이너2: 녹음 진행 중 메시지 -->
+    <div id="statusMessage" style="font-family: 'Arial', sans-serif; font-size: 18px; color: #FF5722; text-align: center; margin-top: 10px; height: 40px;"></div>
+
+    <!-- 분석 시작 버튼 (최저음, 최고음 녹음 후에만 활성화) -->
+    <div style="display: none; justify-content: center; text-align: center; margin-top: 20px;" id="analyzeButtonContainer">
+        <button id="analyzeButton" style="padding: 15px 30px; background-color: #FF5722; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
+            분석 시작
         </button>
     </div>
 
-    <!-- 최고음 녹음 버튼 -->
-    <div style="text-align: center;">
-        <button id="startHighRecording" style="padding: 15px 30px; background-color: #4CAF50; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;" disabled>
-            최고음 녹음 시작
-        </button>
-    </div>
-</div>
-
-<!-- 메세지 컨테이너 1: 좌우로 배치되는 컨테이너 -->
-<div id="messageContainer1" style="display: flex; justify-content: center; margin-top: 20px;">
-    <div id="lowMessageContainer" style="text-align: center; margin-right: 15px; padding: 10px 30px; border-radius: 8px; color: #ff9f22 ; min-width: 200px;">
-        <!-- 최저음 녹음 완료 메시지가 여기에 표시됩니다 -->
-    </div>
-    <div id="highMessageContainer" style="text-align: center; margin-left: 15x; padding: 10px 30px; border-radius: 8px; color: #5058f5; min-width: 200px;">
-        <!-- 최고음 녹음 완료 메시지가 여기에 표시됩니다 -->
-    </div>
-</div>
-
-
-
-<!-- 메시지 컨테이너2: 녹음 진행 중 메시지 -->
-<div id="statusMessage" style="font-family: 'Arial', sans-serif; font-size: 18px; color: #FF5722; text-align: center; margin-top: 10px; height: 40px;"></div>
-
-<!-- 분석 시작 버튼 (최저음, 최고음 녹음 후에만 활성화) -->
-<div style="display: flex; justify-content: center; text-align: center; margin-top: 20px; display: none;" id="analyzeButtonContainer">
-    <button id="analyzeButton" style="padding: 15px 30px; background-color: #FF5722; color: white; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">
-        분석 시작
-    </button>
-</div>
-
-<!-- 분석 결과 표시 영역 -->
-<div id="songList" style="margin-top: 30px; margin-bottom: 50px; font-family: 'Arial', sans-serif; font-size: 18px; text-align: center;">
-    <h3 style="text-align: center; margin-bottom: 30px;">추천 곡 리스트</h3>
-    <div style = "display: flex; flex-wrap: nowrap; justify-content: center; gap: 20px;  max-width: 1200px; margin: 0 auto; padding: 20px; overflow-x: auto;", id="songCards">
-        <!-- 여기에 카드가 추가될 것입니다. -->
+    <!-- 분석 결과 표시 영역 -->
+    <div id="songList" style="display: none; margin-top: 30px; margin-bottom: 50px; font-family: 'Arial', sans-serif; font-size: 18px; text-align: center;">
+        <div id="userPitch" style="color: #4CAF50; font-size: 20px; text-align: center; margin-bottom: 30px;"></div>
+        <h3 style="text-align: center; margin-bottom: 30px; color: white;">추천 곡 리스트</h3>
+        <div style = "display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;  max-width: 1200px; margin: 0 auto; padding: 10px; overflow: hidden;", id="songCards">
+            <!-- 여기에 카드가 추가될 것입니다. -->
+        </div>
+        <!--상위 3곡 추천 표시-->
+        <h3 style="text-align: center; margin-top: 100px; color: white;">상위 3곡 추천</h3>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 800px; margin: 0 auto; padding: 10px; overflow: hidden;" id="recommendedSongCards">
+            <!-- 상위 3곡 카드가 여기에 추가될 것입니다. -->
+        </div>
     </div>
 </div>
 
@@ -64,16 +74,13 @@
 
             // 최저음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
             document.getElementById('statusMessage').innerHTML = "최저음을 불러주세요: 장덕철-그날처럼 한 소절 (참 많은 시간이 흘러가고 넌 어떻게 사는지 참 궁금해)";
-            await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
             document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
 
             // 서버로 최저음 녹음 요청 보내기
             const responseLow = await fetch('/process_record', {
                 method: 'POST',
                 body: JSON.stringify({ pitch: 'low' }),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
+                headers: {'Content-Type': 'application/json'}
             });
             const resultLow = await responseLow.json();
             // 녹음 완료 상태 표시
@@ -96,7 +103,6 @@
 
             // 최고음 녹음 진행 메시지 출력 (메시지 컨테이너2 사용)
             document.getElementById('statusMessage').innerHTML = "최고음을 불러주세요: 아이유-너랑나 한 소절 (너랑 나랑은 조금 남았지 몇날 몇실진 모르겠지만)";
-            await new Promise(resolve => setTimeout(resolve, 1000));  // 약간의 대기 시간 후에 녹음 시작
             document.getElementById('statusMessage').innerHTML += "<br>녹음 중입니다...";
 
             // 서버로 최고음 녹음 요청 보내기
@@ -138,23 +144,45 @@
                 });
                 const resultAnalysis = await responseAnalysis.json();
 
+                // 사용자 피치 표시
+                document.getElementById('userPitch').textContent = `사용자 최고음: ${resultAnalysis.user_max_pitch.toFixed(2)}`;
                 document.getElementById('songCards').innerHTML = ''; // 카드 초기화
 
                 resultAnalysis.songs.forEach((song, index) => {
                     const similarityPercentage = (song.similarity * 100).toFixed(1);
+                    const waveformSimilarity = (song.waveform_similarity * 100).toFixed(1);
+                    const pitchSimilarity = (song.pitch_similarity * 100).toFixed(1);
                     const cardItem = `
                         <div class="card">
-                            <h4>${index + 1}위</h4>
-                            <p class="song-title"><strong>가수:</strong> ${song.singer}</p>
-                            <p class="song-similarity"><strong>노래 제목:</strong> ${song.title}</p>
-                            <p class="song-singer"><strong>유사도:</strong> ${similarityPercentage}%</p>
+                            <h4>${index + 1}</h4>
+                            <p class="song-singer"><strong>가수:</strong> ${song.singer}</p>
+                            <p class="song-title"><strong>노래 제목:</strong> ${song.title}</p>
+                            <p class="song-similarity"><strong>유사도:</strong> ${similarityPercentage}%</p>
+                            <p class="song-similarity"><strong>음색 유사도:</strong> ${waveformSimilarity}%</p>
+                            <p class="song-similarity"><strong>음역대 유사도:</strong> ${pitchSimilarity}%</p>
+                            <p class="song-similarity"><strong>노래 최고음:</strong> ${song.max_pitch}</p>
                         </div>
                     `;
                     document.getElementById('songCards').innerHTML += cardItem; // 카드 추가
                 });
 
+                // 상위 3곡 추천 추가
+                document.getElementById('recommendedSongCards').innerHTML = ''; // 초기화
+                resultAnalysis.recommended_high_pitch_songs.forEach((song, index) => {
+                    const cardItem = `
+                        <div class="card">
+                            <h4>${index + 1}위</h4>
+                            <p class="song-singer"><strong>가수:</strong> ${song.singer}</p>
+                            <p class="song-title"><strong>노래 제목:</strong> ${song.title}</p>
+                            <p class="song-similarity"><strong>최고음:</strong> ${song.max_pitch}</p>
+                        </div>
+                    `;
+                    document.getElementById('recommendedSongCards').innerHTML += cardItem; // 상위 3곡 카드 추가
+                });
+
+
+                document.getElementById('songList').style.display = 'block';
                 document.getElementById('statusMessage').textContent = ""; // 분석 완료 후 메시지 제거
-                document.getElementById('songList').style.display = 'block'; // 분석 후 곡 리스트 표시
             });
         } else {
             console.error('analyzeButton 요소를 찾을 수 없습니다.');
