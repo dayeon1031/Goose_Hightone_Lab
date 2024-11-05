@@ -1,0 +1,42 @@
+.help-background {
+    padding: 20px;
+    background-image: url('../microphone.jpg');
+    background-size: cover;
+    background-repeat: repeat-y; /* 세로로 배경 이미지 반복 */
+    background-position: center;
+    min-height: 100vh;
+}
+
+.help-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.help-section {
+    display: flex;
+    flex-direction: column; /* 이미지와 설명을 세로로 배치 */
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 650px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px; /* 이미지와 설명 간격 */
+}
