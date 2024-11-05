@@ -18,7 +18,7 @@ app = Flask(__name__)
 connection = pymysql.connect(
     host='localhost',  # MySQL 서버 주소
     user='root',       # 사용자 이름
-    password='dayeon',  # 비밀번호
+    password='Hello192!',  # 비밀번호
     database='music_db',  # 데이터베이스 이름
 )
 
@@ -34,14 +34,7 @@ HIGH_PITCH_FILE = "highest_pitch.wav"
 # 곡 리스트 초기화
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    song_list = []
-    
-    # URL에서 song_list 데이터를 받아서 처리
-    song_list_param = request.args.get('song_list')
-    if song_list_param:
-        song_list = json.loads(song_list_param)
-
-    return render_template('index.html', song_list=song_list)
+    return render_template('index.html')
 
 #record 페이지
 @app.route('/record')
@@ -50,7 +43,7 @@ def record():
 
 
 # JSON 파일에서 musicId를 키로 하는 매핑을 생성
-json_path = r"C:\Users\USER\Desktop\jakpum3-2\music_maching.json"
+json_path = r"C:\Users\나현준\Desktop\semina\hightone\music_maching.json"
 with open(json_path, 'r', encoding='utf-8') as f:
     music_mapping = json.load(f)
 music_list = music_mapping[0]['voiceWaveMatchingResponseDtoList']
@@ -133,10 +126,7 @@ def analyze_audio(file):
 # 1. music_table에서 파형 데이터를 가져오는 함수
 def fetch_waveform_data(music_ids_in_json):
     # MySQL에서 music_table에서 파형 분석 관련 데이터를 가져오기
-    query = """
-    SELECT * FROM music_table
-    WHERE music_id IN %(music_ids)s
-    """
+    query = "SELECT * FROM music_table WHERE music_id IN %(music_ids)s"
     try:
         df_waveform_db = pd.read_sql(query, connection, params={"music_ids": tuple(music_ids_in_json)})
         
@@ -165,10 +155,7 @@ def fetch_waveform_data(music_ids_in_json):
 # 2. music_pitch_table에서 피치 데이터를 가져오는 함수
 def fetch_pitch_data(music_ids_in_json):
     # MySQL에서 music_pitch_table에서 피치 분석 관련 데이터를 가져오기
-    query = """
-    SELECT * FROM music_pitch_table
-    WHERE music_id IN %(music_ids)s
-    """
+    query = "SELECT * FROM music_pitch_table WHERE music_id IN %(music_ids)s"
     try:
         df_pitch_db = pd.read_sql(query, connection, params={"music_ids": tuple(music_ids_in_json)})
         
@@ -186,6 +173,8 @@ def fetch_pitch_data(music_ids_in_json):
     except Exception as e:
         print(f"Error fetching pitch data: {e}")
         return None
+    
+
 def find_similar_songs(user_features, df_waveform_db, df_pitch_db, feature_columns, music_dict):
     # 공통된 music_id를 기준으로 데이터프레임 필터링
     common_music_ids = set(df_waveform_db['music_id']).intersection(df_pitch_db['music_id'])
@@ -283,8 +272,8 @@ def find_similar_songs(user_features, df_waveform_db, df_pitch_db, feature_colum
             print(f"Singer: {result['singer']}, Title: {result['title']}, Max Pitch: {result['max_pitch']:.2f}")
     else:
         print("높은 음역대 도전 노래를 찾지 못했습니다.")
-    
-    return final_results
+        
+    return final_results, high_pitch_results
 
 
 @app.route('/process_record', methods=['POST'])
@@ -307,7 +296,7 @@ def analyze():
 
     # 사용자 피치 정보 계산
     user_mean_features = (user_lowest_pitch + user_highest_pitch) / 2
-    user_max_pitch = user_mean_features['max_pitch'].iloc[0]
+    user_max_pitch = float(user_mean_features['max_pitch'].iloc[0])  # float으로 변환
 
     # 데이터베이스에서 파형 및 피치 데이터 가져오기
     df_waveform_db, feature_columns = fetch_waveform_data(music_ids_in_json)
@@ -318,13 +307,38 @@ def analyze():
         return jsonify({'error': '데이터베이스에서 데이터를 불러오지 못했습니다.'}), 500
 
     # 유사한 노래 찾기
-    top_5_songs = find_similar_songs(user_mean_features, df_waveform_db, df_pitch_db, feature_columns, music_dict)
+    top_5_songs, recommended_high_pitch_songs = find_similar_songs(user_mean_features, df_waveform_db, df_pitch_db, feature_columns, music_dict)
+
+    # 모든 float32 값을 float으로 변환
+    top_5_songs = [
+        {
+            'singer': song['singer'],
+            'title': song['title'],
+            'similarity': float(song['similarity']),
+            'waveform_similarity': float(song['waveform_similarity']),
+            'pitch_similarity': float(song['pitch_similarity']),
+            'max_pitch': float(song['max_pitch']),
+        }
+        for song in top_5_songs
+    ]
+
+    recommended_high_pitch_songs = [
+        {
+            'singer': song['singer'],
+            'title': song['title'],
+            'max_pitch': float(song['max_pitch']),
+        }
+        for song in recommended_high_pitch_songs
+        
+    ]
 
     # 결과를 JSON 형식으로 반환, 사용자 피치 추가
     return jsonify({
         'user_max_pitch': user_max_pitch,
-        'songs': top_5_songs
+        'songs': top_5_songs,
+        'recommended_high_pitch_songs': recommended_high_pitch_songs
     })
+
 
 # ABOUT 페이지
 @app.route('/about')
@@ -335,15 +349,6 @@ def about():
 @app.route('/help')
 def help():
     return render_template('help.html')
-
-@app.route('/high_pitch_challenge')
-def high_pitch_challenge():
-    return render_template('high_pitch_challenge.html')
-
-@app.route('/low_pitch_challenge')
-def low_pitch_challenge():
-    return render_template('low_pitch_challenge.html')
-
 
 if __name__ == '__main__':
     app.run(debug=True)
