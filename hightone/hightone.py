@@ -24,8 +24,8 @@ connection = pymysql.connect(
 
 # 녹음 설정
 fs = 44100  # 샘플링 주파수 (Hz)
-duration_low = 5  # 최저음을 녹음할 시간 (초)
-duration_high = 5  # 최고음을 녹음할 시간 (초)
+duration_low = 8  # 최저음을 녹음할 시간 (초)
+duration_high = 8  # 최고음을 녹음할 시간 (초)
 
 # 최저음과 최고음 녹음 및 저장을 위한 경로 설정
 LOW_PITCH_FILE = "lowest_pitch.wav"
