@@ -18,7 +18,7 @@ app = Flask(__name__)
 connection = pymysql.connect(
     host='localhost',  # MySQL 서버 주소
     user='root',       # 사용자 이름
-    password='Hello192!',  # 비밀번호
+    password='dayeon',  # 비밀번호
     database='music_db',  # 데이터베이스 이름
 )
 
@@ -34,7 +34,14 @@ HIGH_PITCH_FILE = "highest_pitch.wav"
 # 곡 리스트 초기화
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    song_list = []
+    
+    # URL에서 song_list 데이터를 받아서 처리
+    song_list_param = request.args.get('song_list')
+    if song_list_param:
+        song_list = json.loads(song_list_param)
+
+    return render_template('index.html', song_list=song_list)
 
 #record 페이지
 @app.route('/record')
@@ -43,13 +50,12 @@ def record():
 
 
 # JSON 파일에서 musicId를 키로 하는 매핑을 생성
-json_path = r"C:\Users\나현준\Desktop\semina\hightone\music_maching.json"
+json_path = r"C:\Users\USER\Desktop\jakpum3-2\music_maching.json"
 with open(json_path, 'r', encoding='utf-8') as f:
     music_mapping = json.load(f)
 music_list = music_mapping[0]['voiceWaveMatchingResponseDtoList']
 music_dict = {item['musicId']: (item['singer'], item['title']) for item in music_list}
 music_ids_in_json = list(music_dict.keys())
-
 def handle_missing_values(df):
     df = df.fillna(0)
     df.replace([np.inf, -np.inf], 0, inplace=True)
@@ -173,7 +179,7 @@ def fetch_pitch_data(music_ids_in_json):
     except Exception as e:
         print(f"Error fetching pitch data: {e}")
         return None
-    
+
 
 def find_similar_songs(user_features, df_waveform_db, df_pitch_db, feature_columns, music_dict):
     # 공통된 music_id를 기준으로 데이터프레임 필터링
@@ -250,12 +256,9 @@ def find_similar_songs(user_features, df_waveform_db, df_pitch_db, feature_colum
     # 추가 기능: 더 높은 음역대에 도전할 사람을 위한 추천 (바로 위 음역대 3곡)
     higher_pitch_songs = df_pitch_db[df_pitch_db['max_pitch'] > user_max_pitch].sort_values(by='max_pitch', ascending=True)
     
-    if len(higher_pitch_songs) >= 3:
-        # 바로 위의 3개의 노래를 추천
-        recommended_high_pitch_songs = higher_pitch_songs.head(3)
-    else:
-        # 3개 미만인 경우에는 가능한 곡만 모두 추천
-        recommended_high_pitch_songs = higher_pitch_songs
+    # 상위 5곡에 포함되지 않는 상위 3곡 추천
+    higher_pitch_songs = higher_pitch_songs[~higher_pitch_songs['music_id'].isin(top_5_songs['music_id'])]
+    recommended_high_pitch_songs = higher_pitch_songs.head(3)
     
     # music_id를 singer와 title로 매핑하여 추천 결과 출력
     high_pitch_results = []
@@ -274,7 +277,6 @@ def find_similar_songs(user_features, df_waveform_db, df_pitch_db, feature_colum
         print("높은 음역대 도전 노래를 찾지 못했습니다.")
         
     return final_results, high_pitch_results
-
 
 @app.route('/process_record', methods=['POST'])
 def process_record():
@@ -351,4 +353,4 @@ def help():
     return render_template('help.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,use_reloader=False)
